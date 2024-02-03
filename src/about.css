@@ -1,0 +1,657 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Aboutnav {
+    background: #205abd;
+    border-bottom: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: 'Poppins', sans-serif;
+    height: 14rem;
+}
+
+/* Media query for tablets */
+@media only screen and (max-width: 768px) {
+    .Aboutnav {
+        height: auto;
+    }
+}
+
+/* Media query for mobile phones */
+@media only screen and (max-width: 480px) {
+    .Aboutnav {
+        height: auto;
+    }
+}
+
+.Aboutlogo {
+    /* width: 11rem;
+    height: 12rem;
+    position: relative; */
+    width: 13.5%;
+    margin-left: 2rem;
+}
+
+/* Media query for tablets */
+@media only screen and (max-width: 768px) {
+    .Aboutlogo {
+        width: 20%;
+        /* Adjust as needed */
+        margin-left: 1rem;
+        /* Adjust as needed */
+        position: relative;
+        left: 37%;
+    }
+}
+
+/* Media query for mobile phones */
+@media only screen and (max-width: 480px) {
+    .Aboutlogo {
+        width: 30%;
+        /* Adjust as needed */
+        margin-left: 0.5rem;
+        /* Adjust as needed */
+    }
+}
+
+.Aboutul {
+    display: flex;
+    gap: 2rem;
+    justify-content: end;
+    align-items: end;
+    margin-right: 2rem;
+
+}
+
+/* Media query for tablets */
+@media only screen and (max-width: 768px) {
+    .Aboutul {
+        justify-content: center;
+        /* Adjust as needed */
+        align-items: center;
+        /* Adjust as needed */
+        margin: 0;
+    }
+}
+
+/* Media query for mobile phones */
+@media only screen and (max-width: 480px) {
+    .Aboutul {
+        flex-direction: row;
+        /* Adjust as needed */
+        justify-content: center;
+        /* Adjust as needed */
+        align-items: center;
+        /* Adjust as needed */
+        gap: 1rem;
+        /* Adjust as needed */
+        margin: 0;
+    }
+}
+
+.Aboutheading {
+    text-align: center;
+    bottom: 6rem;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: xxx-large;
+    position: relative;
+}
+
+/* Media query for tablets */
+@media only screen and (max-width: 768px) {
+    .Aboutheading {
+        font-size: x-large;
+        /* Adjust as needed */
+        bottom: 2rem;
+        /* Adjust as needed */
+    }
+}
+
+/* Media query for mobile phones */
+@media only screen and (max-width: 480px) {
+    .Aboutheading {
+        font-size: large;
+        /* Adjust as needed */
+        bottom: 1.5rem;
+        /* Adjust as needed */
+    }
+}
+
+
+#a {
+    /* color: #bbd0ff; */
+    position: relative;
+    bottom: 8rem;
+    list-style: none;
+    text-decoration: none;
+    font-size: large;
+    color: white;
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 768px) {
+    #a {
+        font-size: medium;
+        /* Adjust as needed */
+        bottom: -2rem;
+        /* Adjust as needed */
+    }
+}
+
+/* Media query for mobile phones */
+@media only screen and (max-width: 480px) {
+    #a {
+        font-size: small;
+        /* Adjust as needed */
+        bottom: -2rem;
+        /* Adjust as needed */
+    }
+}
+
+.Aboutcontainer {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    max-width: 34rem;
+    left: 48rem;
+    top: 30rem;
+
+}
+
+/* Media query for tablets */
+@media only screen and (max-width: 768px) {
+    .Aboutcontainer {
+        max-width: 80%;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 56rem;
+        width: 40rem;
+        line-height: 2.5rem;
+        font-weight: 600;
+    }
+}
+
+.Abouheading1 {
+    text-align: center;
+    color: brown;
+    font-size: xx-large;
+}
+
+@media only screen and (max-width:768px) {
+    .Abouheading1 {
+        text-align: center;
+        color: brown;
+        font-size: xx-large;
+    }
+}
+
+.Aboutheading2 {
+    font-size: 19px;
+    color: brown;
+}
+
+@media only screen and (max-width:768px) {
+    .Aboutheading2 {
+        font-size: 19px;
+        color: brown;
+    }
+}
+
+/* Media query for mobile phones */
+@media only screen and (max-width: 480px) {
+    .Aboutcontainer {
+        max-width: 90%;
+        /* Adjust as needed */
+        left: 50%;
+        /* Adjust as needed */
+        transform: translateX(-50%);
+        /* Center horizontally */
+        top: 42rem;
+        /* Adjust as needed */
+    }
+}
+
+.innerparent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+/* Media query for tablets */
+@media only screen and (max-width: 768px) {
+    .innerparent {
+        /* Adjust styles for tablets */
+    }
+}
+
+/* Media query for mobile phones */
+@media only screen and (max-width: 480px) {
+    .innerparent {
+        /* Adjust styles for mobile phones */
+    }
+}
+
+.Aboutouter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Media query for tablets */
+@media only screen and (max-width: 768px) {
+    .Aboutouter {
+        /* Add tablet-specific styles */
+        margin-top: 34rem;
+    }
+}
+
+/* Media query for mobile phones */
+@media only screen and (max-width: 480px) {
+    .Aboutouter {
+        /* Add mobile-specific styles */
+    }
+}
+
+.Aboutinner {
+    line-height: 2rem;
+    max-width: 63rem;
+    margin-bottom: 2rem;
+    font-size: x-large;
+}
+
+/* Media query for tablets */
+@media only screen and (max-width: 768px) {
+    .Aboutinner {
+        max-width: 80%;
+        /* Adjust as needed */
+        font-size: large;
+        /* Adjust as needed */
+        margin-top: 3rem;
+    }
+}
+
+/* Media query for mobile phones */
+@media only screen and (max-width: 480px) {
+    .Aboutinner {
+        max-width: 90%;
+        /* Adjust as needed */
+        font-size: medium;
+        /* Adjust as needed */
+    }
+}
+
+.Aboutinner1 {
+    line-height: 2rem;
+    max-width: 63rem;
+    margin-bottom: 2rem;
+    font-size: x-large;
+}
+
+/* Media query for tablets */
+@media only screen and (max-width: 768px) {
+    .Aboutinner1 {
+        max-width: 80%;
+        /* Adjust as needed */
+        font-size: large;
+        /* Adjust as needed */
+    }
+}
+
+/* Media query for mobile phones */
+@media only screen and (max-width: 480px) {
+    .Aboutinner1 {
+        max-width: 90%;
+        /* Adjust as needed */
+        font-size: medium;
+        /* Adjust as needed */
+    }
+}
+
+.Aboutinner2 {
+    line-height: 2rem;
+    max-width: 63rem;
+    margin-bottom: 2rem;
+    font-size: x-large;
+}
+
+/* Media query for tablets */
+@media only screen and (max-width: 768px) {
+    .Aboutinner2 {
+        max-width: 80%;
+        /* Adjust as needed */
+        font-size: large;
+        /* Adjust as needed */
+    }
+}
+
+/* Media query for mobile phones */
+@media only screen and (max-width: 480px) {
+    .Aboutinner2 {
+        max-width: 90%;
+        /* Adjust as needed */
+        font-size: medium;
+        /* Adjust as needed */
+    }
+}
+
+
+
+
+.Aboutinner3 {
+    line-height: 2rem;
+    max-width: 63rem;
+    margin-bottom: 2rem;
+    font-size: x-large;
+    /* width: 39rem; */
+
+}
+
+@media only screen and (max-width:768px) {
+    .Aboutinner3 {
+        width: 26rem;
+    }
+}
+
+/* Media query for tablets */
+@media only screen and (max-width: 768px) {
+    .Aboutinner2 {
+        max-width: 80%;
+        /* Adjust as needed */
+        font-size: large;
+        /* Adjust as needed */
+    }
+}
+
+/* Media query for mobile phones */
+@media only screen and (max-width: 480px) {
+    .Aboutinner2 {
+        max-width: 90%;
+        /* Adjust as needed */
+        font-size: medium;
+        /* Adjust as needed */
+    }
+}
+
+
+.Aboutoutside {
+    max-width: 62rem;
+    margin-left: 6rem;
+
+}
+
+/* Media query for tablets */
+@media only screen and (max-width: 768px) {
+    .Aboutoutside {
+        max-width: 80%;
+        /* Adjust as needed */
+        margin-left: auto;
+        /* Center the element horizontally */
+        margin-right: auto;
+    }
+}
+
+/* Media query for mobile phones */
+@media only screen and (max-width: 480px) {
+    .Aboutoutside {
+        max-width: 90%;
+        /* Adjust as needed */
+        margin-left: auto;
+        /* Center the element horizontally */
+        margin-right: auto;
+    }
+}
+
+.Questios {
+    color: black;
+}
+
+.Questionstap {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 3rem;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+/* Media query for tablets */
+@media only screen and (max-width: 768px) {
+    .Questionstap {
+        /* Add tablet-specific styles */
+        margin-top: 2rem;
+        /* Adjust as needed */
+    }
+}
+
+/* Media query for mobile phones */
+@media only screen and (max-width: 480px) {
+    .Questionstap {
+        /* Add mobile-specific styles */
+        margin-top: 1rem;
+        /* Adjust as needed */
+    }
+}
+
+.Abouttemplateimage {
+    width: 100%;
+    margin-top: 2rem;
+    height: 35rem;
+
+}
+
+/* Media query for tablets */
+@media only screen and (max-width: 768px) {
+    .Abouttemplateimage {
+        height: 30rem;
+        /* Adjust as needed */
+        max-width: 100%;
+        /* Adjust as needed */
+    }
+}
+
+/* Media query for mobile phones */
+@media only screen and (max-width: 480px) {
+    .Abouttemplateimage {
+        height: 35rem;
+        /* Adjust as needed */
+        max-width: 100%;
+        /* Adjust as needed */
+        margin-top: 1rem;
+        /* Adjust as needed */
+    }
+}
+
+.Abouttext {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -32rem;
+    font-size: large;
+    max-width: 83rem;
+    gap: 2rem;
+    line-height: 2rem;
+}
+
+/* Media query for tablets */
+@media only screen and (max-width: 768px) {
+    .Abouttext {
+        flex-direction: column;
+        /* Adjust as needed */
+        align-items: center;
+        /* Adjust as needed */
+        top: 0;
+        /* Adjust as needed */
+        margin-top: 2rem;
+        /* Adjust as needed */
+    }
+}
+
+/* Media query for mobile phones */
+@media only screen and (max-width: 480px) {
+    .Abouttext {
+        flex-direction: column;
+        /* Adjust as needed */
+        align-items: center;
+        /* Adjust as needed */
+        top: 0;
+        /* Adjust as needed */
+        margin-top: 1rem;
+        /* Adjust as needed */
+        font-size: medium;
+        /* Adjust as needed */
+        max-width: 90%;
+        /* Adjust as needed */
+    }
+}
+
+
+.Aboutheadingtemplate {
+    color: #fda003;
+}
+
+.Aboutperatemplate {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Aboutlitel {
+    margin-left: 4rem;
+}
+
+/* Media query for tablets */
+@media only screen and (max-width: 768px) {
+    .Aboutlitel {
+        margin-left: 2rem;
+        margin-top: -41rem;
+        flex-wrap: wrap;
+        display: flex;
+        /* Adjust as needed */
+    }
+}
+
+/* Media query for mobile phones */
+@media only screen and (max-width: 480px) {
+    .Aboutlitel {
+        margin-left: 1rem;
+        /* Adjust as needed */
+        position: relative;
+        /* top: -1rem; */
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+}
+
+
+.Aboutlitel2 {
+    position: absolute;
+    top: 12rem;
+    left: 56rem;
+    max-width: 29rem;
+}
+
+/* Media query for tablets */
+@media only screen and (max-width: 768px) {
+    .Aboutlitel2 {
+        top: -21rem;
+        left: 50%;
+        transform: translateX(-50%);
+        max-width: 80%;
+    }
+}
+
+/* Media query for mobile phones */
+@media only screen and (max-width: 480px) {
+    .Aboutlitel2 {
+        top: -22rem;
+        left: 66%;
+        transform: translateX(-50%);
+        max-width: 90%;
+        width: 23rem;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
+
+.Aboutlitel3 {
+    position: relative;
+    top: 20rem;
+    right: 40rem;
+}
+
+/* Media query for tablets */
+@media only screen and (max-width: 768px) {
+    .Aboutlitel3 {
+        top: 7rem;
+        right: auto;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
+
+
+/* Media query for mobile phones */
+@media only screen and (max-width: 480px) {
+    .Aboutlitel3 {
+        top: 5rem;
+        right: auto;
+        left: 52%;
+        transform: translateX(-50%);
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+}
+
+
+.thanks {
+    margin-top: -4rem;
+    margin-left: 34rem;
+    font-size: xxx-large;
+    font-weight: 600;
+    color: cadetblue;
+
+}
+
+/* Media query for tablets */
+@media only screen and (max-width: 768px) {
+    .thanks {
+        margin-top: 0;
+        /* Adjust as needed */
+        margin-left: auto;
+        /* Center horizontally */
+        margin-right: auto;
+        font-size: x-large;
+        /* Adjust as needed */
+        text-align: center;
+    }
+}
+
+/* Media query for mobile phones */
+@media only screen and (max-width: 480px) {
+    .thanks {
+        margin-top: 1rem;
+        /* Adjust as needed */
+        margin-left: auto;
+        /* Center horizontally */
+        margin-right: auto;
+        font-size: large;
+        /* Adjust as needed */
+    }
+}

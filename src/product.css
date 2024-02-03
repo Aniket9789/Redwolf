@@ -1,0 +1,147 @@
+.Productcard1 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.Productcard2 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  height: 23rem;
+}
+
+.Productcard3 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.Productprice {
+  color: grey;
+  font-size: 22px;
+}
+
+.Productbutton {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+/* .Productbutton:hover {
+  opacity: 0.7;
+} */
+
+.Productlogo {
+  width: 100%;
+}
+
+.Productparent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* // */
+/* productcontent */
+
+.Productbanner {
+  width: 100%;
+}
+
+.Productheading {
+  position: absolute;
+  top: 46rem;
+  left: 10rem;
+  font-size: xxx-large;
+}
+
+.Productmain {
+  margin-left: 18rem;
+  margin-top: 2rem;
+
+}
+
+.Productpera {
+  line-height: 3rem;
+  max-width: 52rem;
+  font-size: x-large;
+
+}
+
+.ProductEMI {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+
+}
+
+.ProductcardDetails {
+  position: relative;
+  top: 10.5rem;
+}
+
+.download {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+
+}
+.download a{
+ color: white; 
+ cursor: pointer;
+}
+
+.EMIcontent {
+  position: relative;
+  top: -14rem;
+  left: 6rem;
+}
+
+.manageemi {
+  color: #142b5f;
+
+}
+
+.featuresEMI {
+  color: red;
+  margin-left: 2rem;
+  line-height: 3rem;
+}
+
+.EMIdetails {
+  position: relative;
+  right: 3rem;
+  top: 5rem;
+  line-height: 2rem;
+
+}
+
+.EMIheading {
+  color: #142b5f;
+  font-size: larger;
+}
+
+.EMIpera {
+  font-size: large;
+  color: darkseagreen;
+}

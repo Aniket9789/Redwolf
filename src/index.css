@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.box-shadow{
+    padding: 1rem;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    border-radius: 1rem;
+    border: 1px solid lightblue;
+    max-width: 80% ;
+}
+/* card */
+.card-conainer{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.bs-C{
+    align-items: flex-end;
+}
+
+.colorH{
+    color: #ff722f;
+    margin-bottom: 1rem;
+}
+
+.colorP{
+    color: darkseagreen;
+    font-weight: 800;
+}
+
+
+/* */
+.hero-row{
+    gap: 2rem;
+}
+.hero-column{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 250px;
+    height: auto;
+}
+
+.hero-super-card ,.hero-distributor-card,.hero-retailer-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-distributor{
+    max-width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width:832px) {
+    .hero-row{
+        gap: 1.5rem;
+        /* flex-direction: column; */
+    }
+    .hero-column{
+        max-width: 200px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .hero-row{
+        gap: 1rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+}

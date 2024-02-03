@@ -1,0 +1,1749 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Alogo {
+    width: 13.5%;
+    margin-left: 2rem;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .Alogo {
+        width: 26%;
+        /* Adjust the width for smaller screens */
+        margin-left: 1rem;
+        /* Adjust the margin for smaller screens */
+    }
+}
+
+
+
+
+/* second pera to responsive */
+
+
+.Hul {
+    display: flex;
+    gap: 2rem;
+    margin-right: 4rem;
+    margin-top: 3rem;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .Hul {
+        /* flex-direction: column; */
+        /* Change to a column layout on smaller screens */
+        margin-right: 0;
+        /* Remove right margin on smaller screens */
+        margin-top: 2rem;
+        /* Adjust top margin for smaller screens */
+    }
+
+    .Hul>* {
+        margin-bottom: 2rem;
+        /* Add spacing between flex items in column layout */
+    }
+}
+
+
+/* third */
+
+
+.Hli {
+    margin-bottom: 2rem;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .Hli {
+        margin-bottom: 1rem;
+        /* Adjust the margin for smaller screens */
+    }
+}
+
+/* forth */
+
+.companyheading {
+    margin-left: -16rem;
+    margin-bottom: 1rem;
+    color: white;
+    font-size: 2.4375em;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .companyheading {
+        margin-left: 0;
+        /* Reset left margin on smaller screens */
+        font-size: 1.5em;
+        /* Adjust the font size for smaller screens */
+    }
+}
+
+
+/* fifth */
+
+.Hnav {
+    display: flex;
+    justify-content: space-between;
+    background: #205abd;
+    border-bottom: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: 'Poppins', sans-serif;
+    /* width: 100% */
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .Hnav {
+        flex-direction: column;
+        /* Change to a column layout on smaller screens */
+        align-items: center;
+        /* Center items in the column layout */
+
+    }
+}
+
+/* sixth */
+
+li,
+a {
+    list-style: none;
+    text-decoration: none;
+    font-size: large;
+    color: white;
+    font-weight: 600;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+
+    li,
+    a {
+        font-size: medium;
+        /* Adjust the font size for smaller screens */
+    }
+}
+
+/* seven */
+
+
+.Hcontainer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .Hcontainer {
+        flex-direction: column;
+        /* Change to a column layout on smaller screens */
+        align-items: center;
+        /* Center items in the column layout */
+    }
+}
+
+/* eight */
+
+.sliderpara {
+    top: 1rem;
+    max-width: 25rem;
+    font-size: 40px;
+    left: 5rem;
+    font-weight: bolder;
+    position: relative;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .sliderpara {
+        top: 0.5rem;
+        /* Adjust top position for smaller screens */
+        max-width: 100%;
+        /* Make sure it doesn't exceed the container width */
+        font-size: 2em;
+        /* Adjust the font size for smaller screens */
+        left: 0;
+        /* Reset left position for smaller screens */
+    }
+}
+
+/* nine */
+
+
+.slider1 {
+    width: 75%;
+    position: relative;
+    top: -4rem;
+    /* left: 6.9rem; */
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .slider1 {
+        width: 100%;
+        /* Adjust the width to 100% for smaller screens */
+        top: -2rem;
+        /* Adjust top position for smaller screens */
+        /* left: 0; */
+        /* Reset left position for smaller screens (uncomment if needed) */
+    }
+}
+
+/* .prev {
+    left: 5px;
+    bottom: 12rem;
+}
+
+.next {
+    left: 77.5rem;
+    bottom: 12rem;
+}  */
+
+/* .prev {
+    position: relative;
+    overflow: hidden;
+    color: rgb(255, 105, 105);
+    display: inline-block;
+    font-size: 30px;
+    line-height: 15px;
+    padding: 18px 18px 17px;
+    text-decoration: none;
+    cursor: pointer;
+    background: #fff;
+    touch-action: manipulation;
+    border: none;
+} */
+
+/* .prev span:first-child {
+    position: relative;
+    transition: color 600ms cubic-bezier(0.48, 0, 0.12, 1);
+    z-index: 10;
+}
+
+.prev span:last-child {
+    color: white;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    transition: all 500ms cubic-bezier(0.48, 0, 0.12, 1);
+    z-index: 100;
+    opacity: 0;
+    top: 50%;
+    left: 50%;
+    transform: translateY(225%) translateX(-50%);
+    height: 14px;
+    line-height: 13px;
+} */
+
+/* .prev:after {
+    content: "";
+    position: absolute;
+    bottom: -50%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(247, 172, 172);
+    transform-origin: bottom center;
+    transition: transform 600ms cubic-bezier(0.48, 0, 0.12, 1);
+    transform: skewY(9.3deg) scaleY(0);
+    z-index: 50;
+}
+
+.prev:hover:after {
+    transform-origin: bottom center;
+    transform: skewY(9.3deg) scaleY(2);
+}
+
+.prev:hover span:last-child {
+    transform: translateX(-50%) translateY(-100%);
+    opacity: 1;
+    transition: all 900ms cubic-bezier(0.48, 0, 0.12, 1);
+} */
+
+/* next */
+
+.next {
+    position: relative;
+    overflow: hidden;
+    color: #18181a;
+    display: inline-block;
+    font-size: 30px;
+    line-height: 15px;
+    padding: 18px 18px 17px;
+    text-decoration: none;
+    cursor: pointer;
+    background: #fff;
+    touch-action: manipulation;
+    border: none;
+}
+
+.next span:first-child {
+    position: relative;
+    transition: color 600ms cubic-bezier(0.48, 0, 0.12, 1);
+    z-index: 10;
+}
+
+.next span:last-child {
+    color: white;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    transition: all 500ms cubic-bezier(0.48, 0, 0.12, 1);
+    z-index: 100;
+    opacity: 0;
+    top: 50%;
+    left: 50%;
+    transform: translateY(225%) translateX(-50%);
+    height: 14px;
+    line-height: 13px;
+}
+
+.next:after {
+    content: "";
+    position: absolute;
+    bottom: -50%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(247, 172, 172);
+    transform-origin: bottom center;
+    transition: transform 600ms cubic-bezier(0.48, 0, 0.12, 1);
+    transform: skewY(9.3deg) scaleY(0);
+    z-index: 50;
+}
+
+.next:hover:after {
+    transform-origin: bottom center;
+    transform: skewY(9.3deg) scaleY(2);
+}
+
+.next:hover span:last-child {
+    transform: translateX(-50%) translateY(-100%);
+    opacity: 1;
+    transition: all 900ms cubic-bezier(0.48, 0, 0.12, 1);
+}
+
+/* //////////////// */
+/* ten */
+
+
+.banner1 {
+    width: 35%;
+    position: relative;
+    left: 7rem;
+    border-radius: 15px;
+    height: 25rem;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .banner1 {
+        width: 100%;
+        /* Adjust the width to 100% for smaller screens */
+        left: 0;
+        /* Reset left position for smaller screens */
+        height: auto;
+        /* Adjust height to auto for smaller screens */
+        border-radius: 0;
+        /* Remove border-radius for smaller screens or adjust as needed */
+    }
+}
+
+/* eleven */
+
+
+.para1 {
+    left: 46rem;
+    position: relative;
+    bottom: 20rem;
+    max-width: 480px;
+    line-height: 47px;
+    color: #ff722f;
+    font-size: xx-large;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .para1 {
+        left: 0;
+        /* Reset left position for smaller screens */
+        bottom: 10rem;
+        /* Adjust bottom position for smaller screens */
+        max-width: 100%;
+        /* Adjust max-width to 100% for smaller screens */
+        line-height: 1.5;
+        /* Adjust line-height for smaller screens */
+        font-size: large;
+        /* Adjust font size for smaller screens */
+    }
+}
+
+/* twelve */
+
+.text1 {
+    left: 46rem;
+    position: relative;
+    bottom: 19rem;
+    max-width: 500px;
+    line-height: 26px;
+    color: #142b5f;
+    font-size: larger;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .text1 {
+        left: 0;
+        /* Reset left position for smaller screens */
+        bottom: 10rem;
+        /* Adjust bottom position for smaller screens */
+        max-width: 100%;
+        /* Adjust max-width to 100% for smaller screens */
+        line-height: 1.5;
+        /* Adjust line-height for smaller screens */
+        font-size: large;
+        /* Adjust font size for smaller screens */
+    }
+}
+
+/* thearteen */
+
+
+/* progressbar */
+
+.column {
+    float: left;
+    /* Remove float property */
+    width: 25%;
+    padding: 0 5px;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .column {
+        width: 100%;
+        /* Set width to 100% for smaller screens */
+        box-sizing: border-box;
+        /* Include padding in the width calculation */
+        padding: 0 10px;
+        /* Adjust padding for smaller screens */
+        margin-bottom: 10px;
+        /* Add some spacing between columns for smaller screens */
+    }
+}
+
+/* fourteen */
+
+
+.row {
+    background-color: #205abd;
+    position: relative;
+    bottom: 10rem;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .row {
+        bottom: 5rem;
+        /* Adjust bottom position for smaller screens */
+    }
+}
+
+/* 15 */
+
+.superdist {
+    width: 10rem;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .superdist {
+        width: 100%;
+        /* Set width to 100% for smaller screens */
+    }
+}
+
+/* 16 */
+
+
+.distributor {
+    width: 10rem;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .distributor {
+        width: 100%;
+        /* Set width to 100% for smaller screens */
+    }
+}
+
+/* 17 */
+
+.retailer {
+    width: 10rem;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .retailer {
+        width: 100%;
+        /* Set width to 100% for smaller screens */
+    }
+}
+
+/* 18 */
+
+
+.active {
+    width: 10rem;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .active {
+        width: 100%;
+        /* Set width to 100% for smaller screens */
+    }
+}
+
+/* 19 */
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .row:after {
+        display: none;
+        /* Optionally hide the clearfix on smaller screens if not needed */
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 10px;
+    }
+}
+
+
+/* 20 */
+
+.card {
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+    padding: 16px;
+    text-align: center;
+    background-color: #205abd;
+    color: white;
+    margin-left: 10rem;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .card {
+        margin-left: 0;
+        /* Reset left margin for smaller screens */
+    }
+}
+
+/* 21 */
+
+.fa {
+    font-size: 50px;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .fa {
+        font-size: 2em;
+        /* Adjust font size for smaller screens */
+    }
+}
+
+/* 22 */
+
+
+.bottomText {
+    margin-left: 8rem;
+    color: white;
+    margin-top: 5rem;
+    position: relative;
+    bottom: 67px;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .bottomText {
+        margin-left: 2rem;
+        /* Adjust left margin for smaller screens */
+        margin-top: 2rem;
+        /* Adjust top margin for smaller screens */
+        bottom: auto;
+        /* Reset bottom position for smaller screens */
+    }
+}
+
+
+/* 23 */
+
+.number {
+    color: white;
+    font-size: xxx-large;
+    position: relative;
+    margin-left: 10rem;
+    margin-top: -4rem;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .number {
+        margin-left: 2rem;
+        /* Adjust left margin for smaller screens */
+        margin-top: -2rem;
+        /* Adjust top margin for smaller screens */
+        font-size: x-large;
+        /* Adjust font size for smaller screens */
+    }
+}
+
+
+/* 24 */
+
+.plus {
+    font-size: large;
+    position: relative;
+    bottom: 1.5rem;
+    right: 1rem;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .plus {
+        font-size: medium;
+        /* Adjust font size for smaller screens */
+        bottom: 0.5rem;
+        /* Adjust bottom position for smaller screens */
+        right: 0.5rem;
+        /* Adjust right position for smaller screens */
+    }
+}
+
+/* coupon */
+
+
+/* 25 */
+
+.QTA {
+    display: flex;
+    margin-top: 4rem;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .QTA {
+        flex-direction: column;
+        /* Change to a column layout on smaller screens */
+        align-items: center;
+        /* Center items in the column layout */
+        margin-top: 2rem;
+        /* Adjust top margin for smaller screens */
+    }
+}
+
+/* 26 */
+
+
+.coupon {
+    border: 5px dotted #bbb;
+    width: 80%;
+    border-radius: 15px;
+    max-width: 600px;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .coupon {
+        width: 100%;
+        /* Adjust width to 100% for smaller screens */
+        max-width: 100%;
+        /* Adjust max-width to 100% for smaller screens */
+        margin-left: 0;
+        /* Reset left margin for smaller screens */
+        margin-top: 1rem;
+        /* Adjust top margin for smaller screens */
+    }
+}
+
+.coupon:hover {
+    background-color: #ce0b0b;
+    color: white;
+}
+
+/* 27 */
+
+
+#avtar {
+    width: 12rem;
+    margin-left: 22rem;
+    border-radius: 9rem;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    #avtar {
+        width: 100%;
+        /* Adjust width to 100% for smaller screens */
+        max-width: 12rem;
+        /* Set max-width to limit the size on smaller screens */
+        margin-left: 0;
+        /* Reset left margin for smaller screens or adjust as needed */
+    }
+}
+
+
+/* 28 */
+
+
+.container {
+    padding: 2px 16px;
+    background-color: #f1f1f1;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 2px 10px;
+        /* Adjust padding for smaller screens */
+    }
+}
+
+/* 29 */
+
+.promo {
+    background: #ccc;
+    padding: 3px;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .promo {
+        padding: 2px;
+        /* Adjust padding for smaller screens */
+    }
+}
+
+/* 30 */
+
+.expire {
+    color: red;
+}
+
+/* 31 */
+.coupon1 {
+    border: 5px dotted #bbb;
+    width: 80%;
+    border-radius: 15px;
+    max-width: 600px;
+    margin-left: 22rem;
+    margin-top: 3rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .coupon1 {
+        width: 100%;
+        /* Adjust width to 100% for smaller screens */
+        max-width: 100%;
+        /* Adjust max-width to 100% for smaller screens */
+        margin-left: 1rem;
+        /* Adjust left margin for smaller screens */
+        margin-top: 1rem;
+        /* Adjust top margin for smaller screens */
+    }
+}
+
+.coupon1:hover {
+    background-color: #ce0b0b;
+    color: white;
+}
+
+
+/* /////////// */
+/* blogcontent */
+
+
+/* 32 */
+
+.blogcontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .blogcontent {
+        /* Add responsive adjustments here if needed */
+    }
+}
+
+/* 33 */
+
+.blogpara {
+    position: relative;
+    bottom: 7rem;
+    font-size: xx-large;
+    color: #142b5f;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .blogpara {
+        bottom: 3rem;
+        /* Adjust bottom position for smaller screens */
+        font-size: large;
+        /* Adjust font size for smaller screens */
+    }
+}
+
+/* 34 */
+
+
+.blogspanheading {
+    font-size: xxx-large;
+    color: #ff722f;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .blogspanheading {
+        font-size: x-large;
+        /* Adjust font size for smaller screens */
+    }
+}
+
+/* 35 */
+
+
+.blogheading {
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    bottom: 6rem;
+    font-size: medium;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .blogheading {
+        bottom: 3rem;
+        /* Adjust bottom position for smaller screens */
+        font-size: large;
+        /* Adjust font size for smaller screens */
+    }
+}
+
+
+.hi {
+    color: #ff722f;
+}
+
+
+
+/* ////// */
+/* footer */
+
+.footer {
+    position: relative;
+    width: 100%;
+    background: #3586ff;
+    min-height: 100px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    top: 11rem;
+}
+
+.social-icon,
+.menu {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+}
+
+.social-icon__item,
+.menu__item {
+    list-style: none;
+}
+
+.social-icon__link {
+    font-size: 2rem;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+}
+
+.social-icon__link:hover {
+    transform: translateY(-10px);
+}
+
+.menu__link {
+    font-size: 1.2rem;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+    text-decoration: none;
+    opacity: 0.75;
+    font-weight: 300;
+}
+
+.menu__link:hover {
+    opacity: 1;
+}
+
+.footer p {
+    color: #fff;
+    margin: 15px 0 10px 0;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.wave {
+    position: absolute;
+    top: -100px;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: url("https://i.ibb.co/wQZVxxk/wave.png");
+    background-size: 1000px 100px;
+}
+
+.wave#wave1 {
+    z-index: 1000;
+    opacity: 1;
+    bottom: 0;
+    animation: animateWaves 4s linear infinite;
+}
+
+.wave#wave2 {
+    z-index: 999;
+    opacity: 0.5;
+    bottom: 10px;
+    animation: animate 4s linear infinite !important;
+}
+
+.wave#wave3 {
+    z-index: 1000;
+    opacity: 0.2;
+    bottom: 15px;
+    animation: animateWaves 3s linear infinite;
+}
+
+.wave#wave4 {
+    z-index: 999;
+    opacity: 0.7;
+    bottom: 20px;
+    animation: animate 3s linear infinite;
+}
+
+@keyframes animateWaves {
+    0% {
+        background-position-x: 1000px;
+    }
+
+    100% {
+        background-positon-x: 0px;
+    }
+}
+
+@keyframes animate {
+    0% {
+        background-position-x: -1000px;
+    }
+
+    100% {
+        background-positon-x: 0px;
+    }
+}
+
+/* 36 */
+
+.VMVparent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 75rem;
+    gap: 10rem;
+    margin-left: 5rem;
+    /* margin-top: 88rem;    */
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .VMVparent {
+        flex-direction: column;
+        /* Change to column layout on smaller screens */
+        align-items: flex-start;
+        /* Align items to the start in column layout */
+        max-width: 100%;
+        /* Adjust max-width to 100% for smaller screens */
+        margin-left: 2rem;
+        /* Adjust left margin for smaller screens */
+        /* gap: 2rem; */
+        /* Adjust gap for smaller screens */
+        margin-top: 159rem;
+    }
+}
+
+/* 37 */
+
+.vision {
+    position: relative;
+    top: -8rem;
+    right: 3rem;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .vision {
+        top: -4rem;
+        /* Adjust top position for smaller screens */
+        right: 1rem;
+        /* Adjust right position for smaller screens */
+    }
+}
+
+/* 38 */
+
+
+.mission {
+    position: relative;
+    top: 4rem;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .mission {
+        top: -8rem;
+        left: -1rem;
+        /* Adjust top position for smaller screens */
+    }
+}
+
+/* 39 */
+
+.value {
+    position: relative;
+    bottom: 8rem;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .value {
+        right: 1rem;
+        bottom: 12rem;
+        /* Adjust bottom position for smaller screens */
+    }
+}
+
+/* 40 */
+
+
+
+.hr {
+    margin-top: 6rem;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .hr {
+        margin-top: 3rem;
+        /* Adjust top margin for smaller screens */
+    }
+}
+
+/* 41 */
+
+.visioncontent {
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    line-height: 1.4rem;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .visioncontent {
+        width: 100%;
+        /* Adjust width to 100% for smaller screens */
+        height: auto;
+        /* Auto-adjust height based on content */
+        padding: 10px;
+        /* Adjust padding for smaller screens */
+    }
+}
+
+/* 42 */
+
+.visionheading {
+    color: #ff722f;
+    margin-bottom: 1rem;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .visionheading {
+        /* Add responsive adjustments here if needed */
+    }
+}
+
+/* 43 */
+
+.visionpera {
+    color: darkseagreen;
+    font-weight: 800;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .visionpera {
+        /* Add responsive adjustments here if needed */
+    }
+}
+
+/* 44 */
+
+.testmonialparent {
+    margin-top: 16rem;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .testmonialparent {
+        margin-top: 8rem;
+        /* Adjust top margin for smaller screens */
+    }
+}
+
+/* 45 */
+
+.testmonialheading {
+    text-align: center;
+    margin-top: 3rem;
+    color: #ff722f;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .testmonialheading {
+        /* Add responsive adjustments here if needed */
+    }
+}
+
+/* 46 */
+
+.testmonial {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    margin-top: 5rem;
+    margin-right: 5rem;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .testmonial {
+        flex-direction: column;
+        /* Change to column layout on smaller screens */
+        align-items: center;
+        /* Center items in the column layout */
+        margin-top: 3rem;
+        /* Adjust top margin for smaller screens */
+        margin-right: 0;
+        /* Reset right margin for smaller screens */
+        gap: 2rem;
+        /* Adjust gap for smaller screens */
+    }
+}
+
+/* 47 */
+
+.icon {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 15rem;
+    bottom: 2rem;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .icon {
+        width: 30px;
+        /* Adjust width for smaller screens */
+        height: 30px;
+        /* Adjust height for smaller screens */
+        left: 5rem;
+        /* Adjust left position for smaller screens */
+        bottom: 1rem;
+        /* Adjust bottom position for smaller screens */
+    }
+}
+
+/* 48 */
+
+/* counter1 */
+
+@property --num1 {
+    syntax: "<integer>";
+    initial-value: 0;
+    inherits: false;
+}
+
+/* 49 */
+
+.counter1 {
+    animation: counter1 5s forwards alternate ease-in-out;
+    counter-reset: num1 var(--num1);
+    font: 800 40px system-ui;
+    padding: 2rem;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .counter1 {
+        font-size: 24px;
+        /* Adjust font size for smaller screens */
+        padding: 1rem;
+        /* Adjust padding for smaller screens */
+    }
+}
+
+/* 50 */
+
+
+.counterpera {
+    margin-left: 1.1rem;
+    font-size: x-large;
+    font-weight: 600;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .counterpera {
+        margin-left: 0.5rem;
+        /* Adjust margin-left for smaller screens */
+        font-size: large;
+        /* Adjust font size for smaller screens */
+        font-weight: 500;
+        /* Adjust font weight for smaller screens */
+    }
+}
+
+/* 51 */
+
+.counterpera2 {
+    margin-left: 2.1rem;
+    font-size: x-large;
+    font-weight: 600;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .counterpera2 {
+        margin-left: 1rem;
+        /* Adjust margin-left for smaller screens */
+        font-size: large;
+        /* Adjust font size for smaller screens */
+        font-weight: 500;
+        /* Adjust font weight for smaller screens */
+    }
+}
+
+/* 52 */
+
+.counterpera3 {
+    margin-left: 4.1rem;
+    font-size: x-large;
+    font-weight: 600;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .counterpera3 {
+        margin-left: 2rem;
+        /* Adjust margin-left for smaller screens */
+        font-size: large;
+        /* Adjust font size for smaller screens */
+        font-weight: 500;
+        /* Adjust font weight for smaller screens */
+    }
+}
+
+/* 53 */
+
+
+.counter1::after {
+    content: counter(num1);
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .counter1::after {
+        /* Add responsive adjustments here if needed */
+    }
+}
+
+@keyframes counter1 {
+    from {
+        --num1: 0;
+    }
+
+    to {
+        --num1: 40;
+    }
+}
+
+/* counter2 */
+
+@property --num2 {
+    syntax: "<integer>";
+    initial-value: 0;
+    inherits: false;
+}
+
+/* 54 */
+
+.counter2 {
+    animation: counter2 5s forwards alternate ease-in-out;
+    counter-reset: num2 var(--num2);
+    font: 800 40px system-ui;
+    padding: 2rem;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .counter2 {
+        font-size: 24px;
+        /* Adjust font size for smaller screens */
+        padding: 1rem;
+        /* Adjust padding for smaller screens */
+    }
+}
+
+/* 55 */
+
+.counter2::after {
+    content: counter(num2);
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .counter2::after {
+        /* Add responsive adjustments here if needed */
+    }
+}
+
+@keyframes counter2 {
+    from {
+        --num2: 0;
+    }
+
+    to {
+        --num2: 255;
+    }
+}
+
+/* counter3 */
+
+@property --num3 {
+    syntax: "<integer>";
+    initial-value: 0;
+    inherits: false;
+}
+
+/* 56 */
+
+.counter3 {
+    animation: counter3 5s forwards alternate ease-in-out;
+    counter-reset: num3 var(--num3);
+    font: 800 40px system-ui;
+    padding: 2rem;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .counter3 {
+        font-size: 24px;
+        /* Adjust font size for smaller screens */
+        padding: 1rem;
+        /* Adjust padding for smaller screens */
+    }
+}
+
+.homeponts {
+    width: -webkit-fill-available;
+}
+
+/* 57 */
+
+.counter3::after {
+    content: counter(num3);
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .counter3::after {
+        /* Add responsive adjustments here if needed */
+    }
+}
+
+@keyframes counter3 {
+    from {
+        --num3: 0;
+    }
+
+    to {
+        --num3: 14000;
+    }
+}
+
+/* counter4 */
+
+
+@property --num4 {
+    syntax: "<integer>";
+    initial-value: 0;
+    inherits: false;
+}
+
+/* 58 */
+
+.counter4 {
+    animation: counter4 5s forwards alternate ease-in-out;
+    counter-reset: num4 var(--num4);
+    font: 800 40px system-ui;
+    padding: 2rem;
+}
+
+.counter4::after {
+    content: counter(num4);
+}
+
+@keyframes counter4 {
+    from {
+        --num4: 0;
+    }
+
+    to {
+        --num4: 5000;
+    }
+}
+
+/* 59 */
+
+
+.Homeinnerpoints {
+    font-weight: 400;
+    font-size: larger;
+    max-width: 40rem;
+    margin-left: 4rem;
+    margin-top: 4rem;
+}
+
+@media screen and (max-width: 768px) {
+    .Homeinnerpoints {
+        max-width: 100%;
+        margin-left: 1rem;
+        margin-top: 2rem;
+    }
+}
+
+/* 60 */
+
+.Homequality {
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    top: 13rem;
+    left: 12rem;
+}
+
+@media screen and (max-width: 768px) {
+    .Homequality {
+        width: 100%;
+        max-width: 300px;
+        /* You can adjust this based on your design needs */
+        height: auto;
+        position: static;
+        margin: 2rem auto;
+        /* Adjust the margin based on your design */
+        left: 0;
+    }
+}
+
+/* 61 */
+
+.Homequality2 {
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    top: 2rem;
+    left: 10rem;
+}
+
+@media screen and (max-width: 768px) {
+    .Homequality2 {
+        width: 100%;
+        max-width: 300px;
+        /* You can adjust this based on your design needs */
+        height: auto;
+        position: static;
+        margin: 2rem auto;
+        /* Adjust the margin based on your design */
+        left: 0;
+    }
+}
+
+/* 62 */
+
+.Homequality3 {
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    top: -10rem;
+    left: 7rem;
+}
+
+@media screen and (max-width: 768px) {
+    .Homequality3 {
+        width: 100%;
+        max-width: 300px;
+        /* You can adjust this based on your design needs */
+        height: auto;
+        position: static;
+        /* margin: 2rem auto; */
+        /* Adjust the margin based on your design */
+        /* left: 0; */
+        /* top: 0; */
+        /* Adjust based on your design */
+    }
+}
+
+/* 63 */
+
+.Homequality {
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    top: -10rem;
+    left: 7rem;
+}
+
+.Homequality:hover {
+    cursor: pointer;
+    background-color: azure;
+}
+
+@media screen and (max-width: 768px) {
+    .Homequality {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        position: relative;
+        margin: 2rem auto;
+        left: 10rem;
+        top: 0;
+    }
+}
+
+/* 64 */
+
+.Homequality2 {
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    top: 2rem;
+    left: 7rem;
+}
+
+.Homequality2:hover {
+    cursor: pointer;
+    background-color: azure;
+}
+
+@media screen and (max-width: 768px) {
+    .Homequality2 {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        position: relative;
+        margin: 2rem auto;
+        left: 10rem;
+    }
+}
+
+/* 65 */
+
+.Homequality3 {
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    top: -10rem;
+    left: 7rem;
+}
+
+.Homequality3:hover {
+    cursor: pointer;
+    background-color: azure;
+}
+
+@media screen and (max-width: 768px) {
+    .Homequality3 {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        position: relative;
+        margin: 2rem auto;
+        left: 10rem;
+        top: 0;
+    }
+}
+
+/* 66 */
+
+.Homecardpoints {
+    margin-left: -19rem;
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 10rem;
+}
+
+@media screen and (max-width: 768px) {
+    .Homecardpoints {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+        /* Adjust the gap based on your design */
+    }
+}
+
+
+.Quality {
+    color: brown;
+}
+
+/* 67 */
+
+.Qualitycontent {
+    color: cadetblue;
+    line-height: 21px;
+}
+
+@media screen and (max-width: 768px) {
+    .Qualitycontent {
+        line-height: 1.5;
+        /* Adjust the line-height based on your design */
+    }
+}
+
+/* 68 */
+
+.Homeh1 {
+    margin-bottom: 2rem;
+    color: brown;
+}
+
+@media screen and (max-width: 768px) {
+    .Homeh1 {
+        font-size: 1.5rem;
+        /* Adjust the font size based on your design */
+        margin-bottom: 1rem;
+        /* Adjust the margin based on your design */
+    }
+}
+
+/* 69 */
+
+.Homep {
+    color: green;
+    line-height: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+    .Homep {
+        font-size: 1rem;
+        /* Adjust the font size based on your design */
+        line-height: 1.5;
+        /* Adjust the line-height based on your design */
+    }
+}
+
+/* 70 */
+
+.visioncontent:hover {
+    cursor: pointer;
+    background-color: azure;
+}
+
+@media screen and (max-width: 768px) {
+    .visioncontent:hover {
+        /* Add specific styles for hover on smaller screens if needed */
+    }
+}
