@@ -63,8 +63,7 @@ function Product() {
           <div className='ProductcardDetails'>
           <h1>T-Cops Zt Plus</h1>
           <p className='download'>
-            {/* <a href="https://us-central1-t-cops-zt.cloudfunctions.net/aml/emm/mobile_apps/TCopsZTPlus.apk" download="proposed_file_name">Download</a> */}
-            Download
+            <a href="https://us-central1-t-cops-zt.cloudfunctions.net/aml/emm/mobile_apps/TCopsZTPlus.apk"download="proposed_file_name">Download</a>
           </p>
           </div>
         </div>
