@@ -129,7 +129,7 @@ function About() {
       <div className='Aboutclient'>
 
       </div>
-      <h1 className='thanks'> Thank You</h1>
+      
 
       {/* //////// */}
       {/* footer */}

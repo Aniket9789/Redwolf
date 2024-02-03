@@ -257,6 +257,7 @@
 @media only screen and (max-width: 480px) {
     .Aboutouter {
         /* Add mobile-specific styles */
+        margin-top: 45rem;
     }
 }
 
@@ -356,7 +357,7 @@
 
 @media only screen and (max-width:768px) {
     .Aboutinner3 {
-        width: 26rem;
+        width: 23rem;
     }
 }
 
@@ -462,7 +463,7 @@
 /* Media query for mobile phones */
 @media only screen and (max-width: 480px) {
     .Abouttemplateimage {
-        height: 35rem;
+        height: 43rem;
         /* Adjust as needed */
         max-width: 100%;
         /* Adjust as needed */
@@ -520,7 +521,7 @@
 }
 
 .Aboutperatemplate {
-    color: black;
+    color: white;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -545,7 +546,7 @@
         margin-left: 1rem;
         /* Adjust as needed */
         position: relative;
-        /* top: -1rem; */
+        top: -6rem;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
@@ -574,14 +575,15 @@
 /* Media query for mobile phones */
 @media only screen and (max-width: 480px) {
     .Aboutlitel2 {
-        top: -22rem;
-        left: 66%;
+        top: -26rem;
+        left: 67%;
         transform: translateX(-50%);
         max-width: 90%;
-        width: 23rem;
+        width: 19rem;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
+
     }
 }
 
@@ -608,9 +610,9 @@
 /* Media query for mobile phones */
 @media only screen and (max-width: 480px) {
     .Aboutlitel3 {
-        top: 5rem;
+        top: 2rem;
         right: auto;
-        left: 52%;
+        left: 56%;
         transform: translateX(-50%);
         display: flex;
         flex-direction: column;
