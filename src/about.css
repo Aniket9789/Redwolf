@@ -117,7 +117,7 @@
     .Aboutheading {
         font-size: large;
         /* Adjust as needed */
-        bottom: 1.5rem;
+        bottom: 0rem;
         /* Adjust as needed */
     }
 }
@@ -148,7 +148,7 @@
     #a {
         font-size: small;
         /* Adjust as needed */
-        bottom: -2rem;
+        bottom: 0rem;
         /* Adjust as needed */
     }
 }
@@ -518,6 +518,7 @@
 
 .Aboutheadingtemplate {
     color: #fda003;
+    font-weight: 800;
 }
 
 .Aboutperatemplate {
