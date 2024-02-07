@@ -159,8 +159,8 @@
     position: absolute;
     max-width: 34rem;
     left: 48rem;
-    top: 30rem;
-
+    top: 17rem;
+    font-size: x-large;
 }
 
 /* Media query for tablets */
@@ -191,13 +191,13 @@
 }
 
 .Aboutheading2 {
-    font-size: 19px;
+    font-size: 23px;
     color: brown;
 }
 
 @media only screen and (max-width:768px) {
     .Aboutheading2 {
-        font-size: 19px;
+        font-size: 23px;
         color: brown;
     }
 }
@@ -211,8 +211,9 @@
         /* Adjust as needed */
         transform: translateX(-50%);
         /* Center horizontally */
-        top: 39rem;
+        top: 43rem;
         /* Adjust as needed */
+        font-size: large;
     }
 }
 
@@ -257,7 +258,7 @@
 @media only screen and (max-width: 480px) {
     .Aboutouter {
         /* Add mobile-specific styles */
-        margin-top: 45rem;
+        margin-top: 44rem;
     }
 }
 
@@ -284,8 +285,11 @@
     .Aboutinner {
         max-width: 90%;
         /* Adjust as needed */
-        font-size: medium;
-        /* Adjust as needed */
+        font-size: larger;
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: column;
+        font-weight: 500;
     }
 }
 
@@ -355,6 +359,23 @@
 
 }
 
+/* @media only screen and(max-width:480px) {
+    .Aboutinner3 {
+        width: auto;
+        top: 17rem;
+        font-size: large;
+    }
+} */
+@media only screen and (max-width:480px) {
+    .Aboutinner3 {
+        font-size: larger;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        font-weight: 500;
+    }
+}
+
 @media only screen and (max-width:768px) {
     .Aboutinner3 {
         width: 23rem;
@@ -376,16 +397,18 @@
     .Aboutinner2 {
         max-width: 90%;
         /* Adjust as needed */
-        font-size: medium;
+        font-size: larger;
         /* Adjust as needed */
+        font-weight: 500;
     }
 }
 
 
 .Aboutoutside {
     max-width: 62rem;
-    margin-left: 6rem;
-
+    margin-left: 16rem;
+    font-size: x-large;
+    color: chocolate;
 }
 
 /* Media query for tablets */
@@ -407,6 +430,9 @@
         margin-left: auto;
         /* Center the element horizontally */
         margin-right: auto;
+        font-size: larger;
+        font-weight: 500;
+        margin-bottom: 2rem;
     }
 }
 
@@ -622,39 +648,16 @@
 
 }
 
-
-.thanks {
-    margin-top: -4rem;
-    margin-left: 34rem;
-    font-size: xxx-large;
-    font-weight: 600;
-    color: cadetblue;
-
-}
-
-/* Media query for tablets */
-@media only screen and (max-width: 768px) {
-    .thanks {
-        margin-top: 0;
-        /* Adjust as needed */
-        margin-left: auto;
-        /* Center horizontally */
-        margin-right: auto;
-        font-size: x-large;
-        /* Adjust as needed */
-        text-align: center;
+@media only screen and (max-width:768px) {
+    #Aboutfooter {
+        margin-top: 7rem;
     }
 }
 
-/* Media query for mobile phones */
-@media only screen and (max-width: 480px) {
-    .thanks {
-        margin-top: 1rem;
-        /* Adjust as needed */
-        margin-left: auto;
-        /* Center horizontally */
-        margin-right: auto;
-        font-size: large;
-        /* Adjust as needed */
-    }
+#Aboutfooter {
+    top: 0;
+}
+
+.Questions {
+    font-size: large;
 }

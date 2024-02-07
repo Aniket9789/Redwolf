@@ -133,7 +133,7 @@ function About() {
 
       {/* //////// */}
       {/* footer */}
-      <footer className="footer">
+      <footer className="footer" id="Aboutfooter">
         <div className="waves">
           <div className="wave" id="wave1"></div>
           <div className="wave" id="wave2"></div>
