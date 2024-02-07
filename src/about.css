@@ -521,7 +521,7 @@
     .Aboutlitel {
         margin-left: 1rem;
         position: relative;
-        top: -6rem;
+        top: -7rem;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
@@ -550,7 +550,7 @@
 /* Media query for mobile phones */
 @media only screen and (max-width: 480px) {
     .Aboutlitel2 {
-        top: -26rem;
+        top: -29rem;
         left: 67%;
         transform: translateX(-50%);
         max-width: 90%;
