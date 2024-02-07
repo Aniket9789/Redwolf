@@ -76,9 +76,9 @@ function About() {
           </p>
         </div>
         <div className='Aboutinner3'>
-          <p>
+          {/* <p>
             We are not limited in terms of area rather we deliver the quality service across the globe. We are powered with the best latest technology & synergistic approach for online solutions.
-          </p>
+          </p> */}
         </div>
       </div>
 
