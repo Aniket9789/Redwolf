@@ -346,6 +346,12 @@
 @media only screen and (max-width:768px) {
     .Aboutinner3 {
         width: 27rem;
+        font-size: large;
+        font-weight: 400;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
     }
 }
 
