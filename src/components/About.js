@@ -75,11 +75,11 @@ function About() {
             Our team consists of talented and dedicated professional consultants who work hard and dedicatedly to understand your business needs. We are the best in providing you the valuable insight to leverage your internet presence as well as business prospects. Over the past years, we have been exceptional in delivering the quality product to our clients.
           </p>
         </div>
-        <div className='Aboutinner3'>
+        {/* <div className='Aboutinner3'> */}
           {/* <p>
             We are not limited in terms of area rather we deliver the quality service across the globe. We are powered with the best latest technology & synergistic approach for online solutions.
           </p> */}
-        </div>
+        {/* </div> */}
       </div>
 
       <h3 className='Aboutoutside'>

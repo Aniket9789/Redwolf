@@ -444,7 +444,7 @@
 /* Media query for tablets */
 @media only screen and (max-width: 768px) {
     .Abouttemplateimage {
-        height: 30rem;
+        height: 32rem;
         max-width: 100%;
     }
 }
@@ -510,7 +510,7 @@
 @media only screen and (max-width: 768px) {
     .Aboutlitel {
         margin-left: 2rem;
-        margin-top: -41rem;
+        margin-top: -44rem;
         flex-wrap: wrap;
         display: flex;
     }
@@ -540,10 +540,10 @@
 /* Media query for tablets */
 @media only screen and (max-width: 768px) {
     .Aboutlitel2 {
-        top: -21rem;
+        top: -23rem;
         left: 50%;
         transform: translateX(-50%);
-        max-width: 80%;
+        max-width: 46rem;
     }
 }
 
@@ -578,6 +578,7 @@
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
+        max-width: 45rem;
     }
 }
 
