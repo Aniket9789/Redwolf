@@ -40,9 +40,7 @@
 @media only screen and (max-width: 768px) {
     .Aboutlogo {
         width: 20%;
-        /* Adjust as needed */
         margin-left: 1rem;
-        /* Adjust as needed */
         position: relative;
         left: 37%;
     }
@@ -52,9 +50,7 @@
 @media only screen and (max-width: 480px) {
     .Aboutlogo {
         width: 30%;
-        /* Adjust as needed */
         margin-left: 0.5rem;
-        /* Adjust as needed */
     }
 }
 
@@ -71,9 +67,7 @@
 @media only screen and (max-width: 768px) {
     .Aboutul {
         justify-content: center;
-        /* Adjust as needed */
         align-items: center;
-        /* Adjust as needed */
         margin: 0;
     }
 }
@@ -82,13 +76,9 @@
 @media only screen and (max-width: 480px) {
     .Aboutul {
         flex-direction: row;
-        /* Adjust as needed */
         justify-content: center;
-        /* Adjust as needed */
         align-items: center;
-        /* Adjust as needed */
         gap: 1rem;
-        /* Adjust as needed */
         margin: 0;
     }
 }
@@ -106,9 +96,7 @@
 @media only screen and (max-width: 768px) {
     .Aboutheading {
         font-size: x-large;
-        /* Adjust as needed */
         bottom: 2rem;
-        /* Adjust as needed */
     }
 }
 
@@ -116,9 +104,7 @@
 @media only screen and (max-width: 480px) {
     .Aboutheading {
         font-size: large;
-        /* Adjust as needed */
         bottom: 0rem;
-        /* Adjust as needed */
     }
 }
 
@@ -137,9 +123,7 @@
 @media only screen and (max-width: 768px) {
     #a {
         font-size: medium;
-        /* Adjust as needed */
         bottom: -2rem;
-        /* Adjust as needed */
     }
 }
 
@@ -147,9 +131,7 @@
 @media only screen and (max-width: 480px) {
     #a {
         font-size: small;
-        /* Adjust as needed */
         bottom: 0rem;
-        /* Adjust as needed */
     }
 }
 
@@ -172,7 +154,8 @@
         top: 56rem;
         width: 40rem;
         line-height: 2.5rem;
-        font-weight: 600;
+        font-weight: 400;
+        font-size: large;
     }
 }
 
@@ -206,13 +189,10 @@
 @media only screen and (max-width: 480px) {
     .Aboutcontainer {
         max-width: 90%;
-        /* Adjust as needed */
         left: 50%;
-        /* Adjust as needed */
         transform: translateX(-50%);
         /* Center horizontally */
         top: 43rem;
-        /* Adjust as needed */
         font-size: large;
     }
 }
@@ -227,16 +207,12 @@
 
 /* Media query for tablets */
 @media only screen and (max-width: 768px) {
-    .innerparent {
-        /* Adjust styles for tablets */
-    }
+    .innerparent {}
 }
 
 /* Media query for mobile phones */
 @media only screen and (max-width: 480px) {
-    .innerparent {
-        /* Adjust styles for mobile phones */
-    }
+    .innerparent {}
 }
 
 .Aboutouter {
@@ -250,7 +226,7 @@
 @media only screen and (max-width: 768px) {
     .Aboutouter {
         /* Add tablet-specific styles */
-        margin-top: 34rem;
+        margin-top: 28rem;
     }
 }
 
@@ -273,10 +249,8 @@
 @media only screen and (max-width: 768px) {
     .Aboutinner {
         max-width: 80%;
-        /* Adjust as needed */
         font-size: large;
-        /* Adjust as needed */
-        margin-top: 3rem;
+        margin-top: 13rem;
     }
 }
 
@@ -284,7 +258,6 @@
 @media only screen and (max-width: 480px) {
     .Aboutinner {
         max-width: 90%;
-        /* Adjust as needed */
         font-size: larger;
         flex-wrap: wrap;
         display: flex;
@@ -304,9 +277,7 @@
 @media only screen and (max-width: 768px) {
     .Aboutinner1 {
         max-width: 80%;
-        /* Adjust as needed */
         font-size: large;
-        /* Adjust as needed */
     }
 }
 
@@ -314,9 +285,7 @@
 @media only screen and (max-width: 480px) {
     .Aboutinner1 {
         max-width: 90%;
-        /* Adjust as needed */
         font-size: medium;
-        /* Adjust as needed */
     }
 }
 
@@ -331,9 +300,7 @@
 @media only screen and (max-width: 768px) {
     .Aboutinner2 {
         max-width: 80%;
-        /* Adjust as needed */
         font-size: large;
-        /* Adjust as needed */
     }
 }
 
@@ -341,9 +308,8 @@
 @media only screen and (max-width: 480px) {
     .Aboutinner2 {
         max-width: 90%;
-        /* Adjust as needed */
         font-size: medium;
-        /* Adjust as needed */
+
     }
 }
 
@@ -378,7 +344,7 @@
 
 @media only screen and (max-width:768px) {
     .Aboutinner3 {
-        width: 23rem;
+        width: 34rem;
     }
 }
 
@@ -386,9 +352,8 @@
 @media only screen and (max-width: 768px) {
     .Aboutinner2 {
         max-width: 80%;
-        /* Adjust as needed */
         font-size: large;
-        /* Adjust as needed */
+
     }
 }
 
@@ -396,9 +361,7 @@
 @media only screen and (max-width: 480px) {
     .Aboutinner2 {
         max-width: 90%;
-        /* Adjust as needed */
         font-size: larger;
-        /* Adjust as needed */
         font-weight: 500;
     }
 }
@@ -415,9 +378,9 @@
 @media only screen and (max-width: 768px) {
     .Aboutoutside {
         max-width: 80%;
-        /* Adjust as needed */
+
         margin-left: auto;
-        /* Center the element horizontally */
+
         margin-right: auto;
     }
 }
@@ -426,9 +389,8 @@
 @media only screen and (max-width: 480px) {
     .Aboutoutside {
         max-width: 90%;
-        /* Adjust as needed */
+
         margin-left: auto;
-        /* Center the element horizontally */
         margin-right: auto;
         font-size: larger;
         font-weight: 500;
@@ -454,18 +416,14 @@
 /* Media query for tablets */
 @media only screen and (max-width: 768px) {
     .Questionstap {
-        /* Add tablet-specific styles */
         margin-top: 2rem;
-        /* Adjust as needed */
     }
 }
 
 /* Media query for mobile phones */
 @media only screen and (max-width: 480px) {
     .Questionstap {
-        /* Add mobile-specific styles */
         margin-top: 1rem;
-        /* Adjust as needed */
     }
 }
 
@@ -480,9 +438,7 @@
 @media only screen and (max-width: 768px) {
     .Abouttemplateimage {
         height: 30rem;
-        /* Adjust as needed */
         max-width: 100%;
-        /* Adjust as needed */
     }
 }
 
@@ -490,11 +446,8 @@
 @media only screen and (max-width: 480px) {
     .Abouttemplateimage {
         height: 43rem;
-        /* Adjust as needed */
         max-width: 100%;
-        /* Adjust as needed */
         margin-top: 1rem;
-        /* Adjust as needed */
     }
 }
 
@@ -513,13 +466,9 @@
 @media only screen and (max-width: 768px) {
     .Abouttext {
         flex-direction: column;
-        /* Adjust as needed */
         align-items: center;
-        /* Adjust as needed */
         top: 0;
-        /* Adjust as needed */
         margin-top: 2rem;
-        /* Adjust as needed */
     }
 }
 
@@ -527,17 +476,11 @@
 @media only screen and (max-width: 480px) {
     .Abouttext {
         flex-direction: column;
-        /* Adjust as needed */
         align-items: center;
-        /* Adjust as needed */
         top: 0;
-        /* Adjust as needed */
         margin-top: 1rem;
-        /* Adjust as needed */
         font-size: medium;
-        /* Adjust as needed */
         max-width: 90%;
-        /* Adjust as needed */
     }
 }
 
@@ -563,7 +506,6 @@
         margin-top: -41rem;
         flex-wrap: wrap;
         display: flex;
-        /* Adjust as needed */
     }
 }
 
@@ -571,7 +513,6 @@
 @media only screen and (max-width: 480px) {
     .Aboutlitel {
         margin-left: 1rem;
-        /* Adjust as needed */
         position: relative;
         top: -6rem;
         display: flex;
