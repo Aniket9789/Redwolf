@@ -40,7 +40,7 @@ function About() {
 
           </ul>
         </header>
-        <h1 className='Aboutheading'>About - Redwolfhi-tech</h1>
+        <h1 className='Aboutheading'>About</h1>
       </nav>
 
 
