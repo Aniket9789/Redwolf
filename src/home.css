@@ -38,7 +38,7 @@
         /* flex-direction: column; */
         margin-right: 0;
         margin-top: 2rem;
-        gap: 1rem;
+        gap: .5rem;
         text-align: center;
         justify-content: center;
     }
@@ -954,7 +954,7 @@ a {
         max-width: 100%;
         margin-left: 2rem;
         gap: 2rem;
-        margin-top: 110rem;
+        margin-top: 106rem;
     }
 }
 
@@ -1016,7 +1016,7 @@ a {
 /* Responsive adjustments */
 @media screen and (max-width: 768px) {
     .hr {
-        margin-top: -3rem;
+        margin-top: -5rem;
     }
 }
 
@@ -1035,7 +1035,7 @@ a {
 /* Responsive adjustments */
 @media screen and (max-width: 768px) {
     .visioncontent {
-        width: 100%;
+        width: 90%;
         height: auto;
         padding: 10px;
         margin-top: 4rem;
