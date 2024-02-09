@@ -4,6 +4,9 @@
   margin: auto;
   text-align: center;
   font-family: arial;
+  font-size: large;
+  font-weight: 600;
+
 }
 
 .Productcard2 {
@@ -13,6 +16,8 @@
   text-align: center;
   font-family: arial;
   height: 23rem;
+  font-size: large;
+  font-weight: 600;
 }
 
 .Productcard3 {
@@ -21,6 +26,8 @@
   margin: auto;
   text-align: center;
   font-family: arial;
+  font-size: large;
+  font-weight: 600;
 }
 
 .Productprice {
@@ -46,6 +53,12 @@
 
 .Productlogo {
   width: 100%;
+}
+
+.Pluslogo {
+  position: relative;
+  top: 4rem;
+  transition: transform 0.3s ease-in-out;
 }
 
 .Productparent {
@@ -106,9 +119,10 @@
   font-size: 18px;
 
 }
-.download a{
- color: white; 
- cursor: pointer;
+
+.download a {
+  color: white;
+  cursor: pointer;
 }
 
 .EMIcontent {

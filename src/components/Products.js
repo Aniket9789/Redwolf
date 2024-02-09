@@ -59,7 +59,7 @@ function Product() {
           </p>
         </div>
         <div className="Productcard2">
-          <img src={pluslogo} className='Productlogo' />
+          <img src={pluslogo} className='Productlogo' id='Pluslogo'/>
           <div className='ProductcardDetails'>
             <h1>T-Cops Zt Plus</h1>
             <p className='download'>

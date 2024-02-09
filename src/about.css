@@ -11,7 +11,7 @@
     border-bottom: none;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     font-family: 'Poppins', sans-serif;
-    height: 14rem;
+    height: 12rem;
 }
 
 /* Media query for tablets */
@@ -112,7 +112,7 @@
 #a {
     /* color: #bbd0ff; */
     position: relative;
-    bottom: 8rem;
+    bottom: 6rem;
     list-style: none;
     text-decoration: none;
     font-size: large;
