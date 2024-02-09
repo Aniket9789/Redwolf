@@ -260,7 +260,7 @@ function Home() {
             </a>
           </li>
           <li className="social-icon__item">
-            <a className="social-icon__link" href="#">
+            <a className="social-icon__link" href="https://twitter.com/redwolfhitech.">
               <FaTwitter name="logo-twitter"></FaTwitter>
             </a>
           </li>

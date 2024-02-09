@@ -550,7 +550,7 @@
 @media only screen and (max-width: 480px) {
     .Aboutlitel2 {
         top: -29rem;
-        left: 46%;
+        left: 50%;
         transform: translateX(-50%);
         max-width: 90%;
         width: 19rem;

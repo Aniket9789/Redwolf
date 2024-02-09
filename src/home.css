@@ -15,9 +15,7 @@
 @media screen and (max-width: 768px) {
     .Alogo {
         width: 26%;
-        /* Adjust the width for smaller screens */
         margin-left: 1rem;
-        /* Adjust the margin for smaller screens */
     }
 }
 
@@ -38,16 +36,15 @@
 @media screen and (max-width: 768px) {
     .Hul {
         /* flex-direction: column; */
-        /* Change to a column layout on smaller screens */
         margin-right: 0;
-        /* Remove right margin on smaller screens */
         margin-top: 2rem;
-        /* Adjust top margin for smaller screens */
+        gap: 1rem;
+        text-align: center;
+        justify-content: center;
     }
 
     .Hul>* {
         margin-bottom: 2rem;
-        /* Add spacing between flex items in column layout */
     }
 }
 
@@ -63,7 +60,6 @@
 @media screen and (max-width: 768px) {
     .Hli {
         margin-bottom: 1rem;
-        /* Adjust the margin for smaller screens */
     }
 }
 
@@ -80,9 +76,8 @@
 @media screen and (max-width: 768px) {
     .companyheading {
         margin-left: 0;
-        /* Reset left margin on smaller screens */
         font-size: 1.5em;
-        /* Adjust the font size for smaller screens */
+        text-align: center;
     }
 }
 
@@ -103,10 +98,7 @@
 @media screen and (max-width: 768px) {
     .Hnav {
         flex-direction: column;
-        /* Change to a column layout on smaller screens */
         align-items: center;
-        /* Center items in the column layout */
-
     }
 }
 
@@ -127,7 +119,6 @@ a {
     li,
     a {
         font-size: medium;
-        /* Adjust the font size for smaller screens */
     }
 }
 
@@ -144,9 +135,8 @@ a {
 @media screen and (max-width: 768px) {
     .Hcontainer {
         flex-direction: column;
-        /* Change to a column layout on smaller screens */
         align-items: center;
-        /* Center items in the column layout */
+        text-align: center;
     }
 }
 
@@ -165,13 +155,9 @@ a {
 @media screen and (max-width: 768px) {
     .sliderpara {
         top: 0.5rem;
-        /* Adjust top position for smaller screens */
         max-width: 100%;
-        /* Make sure it doesn't exceed the container width */
         font-size: 2em;
-        /* Adjust the font size for smaller screens */
         left: 0;
-        /* Reset left position for smaller screens */
     }
 }
 
@@ -189,11 +175,7 @@ a {
 @media screen and (max-width: 768px) {
     .slider1 {
         width: 100%;
-        /* Adjust the width to 100% for smaller screens */
-        top: -2rem;
-        /* Adjust top position for smaller screens */
-        /* left: 0; */
-        /* Reset left position for smaller screens (uncomment if needed) */
+        top: 0rem;
     }
 }
 
@@ -347,13 +329,9 @@ a {
 @media screen and (max-width: 768px) {
     .banner1 {
         width: 100%;
-        /* Adjust the width to 100% for smaller screens */
         left: 0;
-        /* Reset left position for smaller screens */
         height: auto;
-        /* Adjust height to auto for smaller screens */
         border-radius: 0;
-        /* Remove border-radius for smaller screens or adjust as needed */
     }
 }
 
@@ -374,15 +352,12 @@ a {
 @media screen and (max-width: 768px) {
     .para1 {
         left: 0;
-        /* Reset left position for smaller screens */
         bottom: 10rem;
-        /* Adjust bottom position for smaller screens */
         max-width: 100%;
-        /* Adjust max-width to 100% for smaller screens */
         line-height: 1.5;
-        /* Adjust line-height for smaller screens */
         font-size: large;
-        /* Adjust font size for smaller screens */
+        text-align: center;
+        top: 2rem;
     }
 }
 
@@ -402,15 +377,12 @@ a {
 @media screen and (max-width: 768px) {
     .text1 {
         left: 0;
-        /* Reset left position for smaller screens */
         bottom: 10rem;
-        /* Adjust bottom position for smaller screens */
         max-width: 100%;
-        /* Adjust max-width to 100% for smaller screens */
         line-height: 1.5;
-        /* Adjust line-height for smaller screens */
         font-size: large;
-        /* Adjust font size for smaller screens */
+        top: 4rem;
+        text-align: center;
     }
 }
 
@@ -430,13 +402,9 @@ a {
 @media screen and (max-width: 768px) {
     .column {
         width: 100%;
-        /* Set width to 100% for smaller screens */
         box-sizing: border-box;
-        /* Include padding in the width calculation */
         padding: 0 10px;
-        /* Adjust padding for smaller screens */
         margin-bottom: 10px;
-        /* Add some spacing between columns for smaller screens */
     }
 }
 
@@ -452,8 +420,7 @@ a {
 /* Responsive adjustments */
 @media screen and (max-width: 768px) {
     .row {
-        bottom: 5rem;
-        /* Adjust bottom position for smaller screens */
+        bottom: -10rem;
     }
 }
 
@@ -467,7 +434,6 @@ a {
 @media screen and (max-width: 768px) {
     .superdist {
         width: 100%;
-        /* Set width to 100% for smaller screens */
     }
 }
 
@@ -482,7 +448,6 @@ a {
 @media screen and (max-width: 768px) {
     .distributor {
         width: 100%;
-        /* Set width to 100% for smaller screens */
     }
 }
 
@@ -496,7 +461,6 @@ a {
 @media screen and (max-width: 768px) {
     .retailer {
         width: 100%;
-        /* Set width to 100% for smaller screens */
     }
 }
 
@@ -511,7 +475,6 @@ a {
 @media screen and (max-width: 768px) {
     .active {
         width: 100%;
-        /* Set width to 100% for smaller screens */
     }
 }
 
@@ -528,7 +491,6 @@ a {
 @media screen and (max-width: 768px) {
     .row:after {
         display: none;
-        /* Optionally hide the clearfix on smaller screens if not needed */
     }
 }
 
@@ -556,7 +518,6 @@ a {
 @media screen and (max-width: 768px) {
     .card {
         margin-left: 0;
-        /* Reset left margin for smaller screens */
     }
 }
 
@@ -570,7 +531,6 @@ a {
 @media screen and (max-width: 768px) {
     .fa {
         font-size: 2em;
-        /* Adjust font size for smaller screens */
     }
 }
 
@@ -589,11 +549,8 @@ a {
 @media screen and (max-width: 768px) {
     .bottomText {
         margin-left: 2rem;
-        /* Adjust left margin for smaller screens */
         margin-top: 2rem;
-        /* Adjust top margin for smaller screens */
         bottom: auto;
-        /* Reset bottom position for smaller screens */
     }
 }
 
@@ -612,11 +569,8 @@ a {
 @media screen and (max-width: 768px) {
     .number {
         margin-left: 2rem;
-        /* Adjust left margin for smaller screens */
         margin-top: -2rem;
-        /* Adjust top margin for smaller screens */
         font-size: x-large;
-        /* Adjust font size for smaller screens */
     }
 }
 
@@ -634,11 +588,8 @@ a {
 @media screen and (max-width: 768px) {
     .plus {
         font-size: medium;
-        /* Adjust font size for smaller screens */
         bottom: 0.5rem;
-        /* Adjust bottom position for smaller screens */
         right: 0.5rem;
-        /* Adjust right position for smaller screens */
     }
 }
 
@@ -656,11 +607,8 @@ a {
 @media screen and (max-width: 768px) {
     .QTA {
         flex-direction: column;
-        /* Change to a column layout on smaller screens */
         align-items: center;
-        /* Center items in the column layout */
         margin-top: 2rem;
-        /* Adjust top margin for smaller screens */
     }
 }
 
@@ -682,13 +630,9 @@ a {
 @media screen and (max-width: 768px) {
     .coupon {
         width: 100%;
-        /* Adjust width to 100% for smaller screens */
         max-width: 100%;
-        /* Adjust max-width to 100% for smaller screens */
         margin-left: 0;
-        /* Reset left margin for smaller screens */
         margin-top: 1rem;
-        /* Adjust top margin for smaller screens */
     }
 }
 
@@ -710,11 +654,8 @@ a {
 @media screen and (max-width: 768px) {
     #avtar {
         width: 100%;
-        /* Adjust width to 100% for smaller screens */
         max-width: 12rem;
-        /* Set max-width to limit the size on smaller screens */
         margin-left: 0;
-        /* Reset left margin for smaller screens or adjust as needed */
     }
 }
 
@@ -731,7 +672,6 @@ a {
 @media screen and (max-width: 768px) {
     .container {
         padding: 2px 10px;
-        /* Adjust padding for smaller screens */
     }
 }
 
@@ -746,7 +686,6 @@ a {
 @media screen and (max-width: 768px) {
     .promo {
         padding: 2px;
-        /* Adjust padding for smaller screens */
     }
 }
 
@@ -772,13 +711,9 @@ a {
 @media screen and (max-width: 768px) {
     .coupon1 {
         width: 100%;
-        /* Adjust width to 100% for smaller screens */
         max-width: 100%;
-        /* Adjust max-width to 100% for smaller screens */
         margin-left: 1rem;
-        /* Adjust left margin for smaller screens */
         margin-top: 1rem;
-        /* Adjust top margin for smaller screens */
     }
 }
 
@@ -803,9 +738,7 @@ a {
 
 /* Responsive adjustments */
 @media screen and (max-width: 768px) {
-    .blogcontent {
-        /* Add responsive adjustments here if needed */
-    }
+    .blogcontent {}
 }
 
 /* 33 */
@@ -822,9 +755,7 @@ a {
 @media screen and (max-width: 768px) {
     .blogpara {
         bottom: 3rem;
-        /* Adjust bottom position for smaller screens */
         font-size: large;
-        /* Adjust font size for smaller screens */
     }
 }
 
@@ -840,7 +771,6 @@ a {
 @media screen and (max-width: 768px) {
     .blogspanheading {
         font-size: x-large;
-        /* Adjust font size for smaller screens */
     }
 }
 
@@ -858,9 +788,7 @@ a {
 @media screen and (max-width: 768px) {
     .blogheading {
         bottom: 3rem;
-        /* Adjust bottom position for smaller screens */
         font-size: large;
-        /* Adjust font size for smaller screens */
     }
 }
 
@@ -1011,16 +939,22 @@ a {
 @media screen and (max-width: 768px) {
     .VMVparent {
         flex-direction: column;
-        /* Change to column layout on smaller screens */
         align-items: flex-start;
-        /* Align items to the start in column layout */
         max-width: 100%;
-        /* Adjust max-width to 100% for smaller screens */
         margin-left: 2rem;
-        /* Adjust left margin for smaller screens */
-        /* gap: 2rem; */
-        /* Adjust gap for smaller screens */
-        margin-top: 159rem;
+        gap: 2rem;
+        margin-top: 90rem;
+    }
+}
+
+@media screen and (max-width: 412px) {
+    .VMVparent {
+        flex-direction: column;
+        align-items: flex-start;
+        max-width: 100%;
+        margin-left: 2rem;
+        gap: 2rem;
+        margin-top: 110rem;
     }
 }
 
@@ -1036,9 +970,7 @@ a {
 @media screen and (max-width: 768px) {
     .vision {
         top: -4rem;
-        /* Adjust top position for smaller screens */
         right: 1rem;
-        /* Adjust right position for smaller screens */
     }
 }
 
@@ -1055,7 +987,6 @@ a {
     .mission {
         top: -8rem;
         left: -1rem;
-        /* Adjust top position for smaller screens */
     }
 }
 
@@ -1071,7 +1002,6 @@ a {
     .value {
         right: 1rem;
         bottom: 12rem;
-        /* Adjust bottom position for smaller screens */
     }
 }
 
@@ -1086,8 +1016,7 @@ a {
 /* Responsive adjustments */
 @media screen and (max-width: 768px) {
     .hr {
-        margin-top: 3rem;
-        /* Adjust top margin for smaller screens */
+        margin-top: -3rem;
     }
 }
 
@@ -1107,11 +1036,9 @@ a {
 @media screen and (max-width: 768px) {
     .visioncontent {
         width: 100%;
-        /* Adjust width to 100% for smaller screens */
         height: auto;
-        /* Auto-adjust height based on content */
         padding: 10px;
-        /* Adjust padding for smaller screens */
+        margin-top: 4rem;
     }
 }
 
@@ -1124,9 +1051,7 @@ a {
 
 /* Responsive adjustments */
 @media screen and (max-width: 768px) {
-    .visionheading {
-        /* Add responsive adjustments here if needed */
-    }
+    .visionheading {}
 }
 
 /* 43 */
@@ -1138,9 +1063,7 @@ a {
 
 /* Responsive adjustments */
 @media screen and (max-width: 768px) {
-    .visionpera {
-        /* Add responsive adjustments here if needed */
-    }
+    .visionpera {}
 }
 
 /* 44 */
@@ -1152,8 +1075,7 @@ a {
 /* Responsive adjustments */
 @media screen and (max-width: 768px) {
     .testmonialparent {
-        margin-top: 8rem;
-        /* Adjust top margin for smaller screens */
+        margin-top: -10rem;
     }
 }
 
@@ -1170,9 +1092,7 @@ a {
 
 /* Responsive adjustments */
 @media screen and (max-width: 768px) {
-    .testmonialheading {
-        /* Add responsive adjustments here if needed */
-    }
+    .testmonialheading {}
 }
 
 /* 46 */
@@ -1189,15 +1109,10 @@ a {
 @media screen and (max-width: 768px) {
     .testmonial {
         flex-direction: column;
-        /* Change to column layout on smaller screens */
         align-items: center;
-        /* Center items in the column layout */
         margin-top: 3rem;
-        /* Adjust top margin for smaller screens */
         margin-right: 0;
-        /* Reset right margin for smaller screens */
         gap: 2rem;
-        /* Adjust gap for smaller screens */
     }
 }
 
@@ -1215,13 +1130,9 @@ a {
 @media screen and (max-width: 768px) {
     .icon {
         width: 30px;
-        /* Adjust width for smaller screens */
         height: 30px;
-        /* Adjust height for smaller screens */
-        left: 5rem;
-        /* Adjust left position for smaller screens */
-        bottom: 1rem;
-        /* Adjust bottom position for smaller screens */
+        left: 0rem;
+        bottom: -6rem;
     }
 }
 
@@ -1248,9 +1159,7 @@ a {
 @media screen and (max-width: 768px) {
     .counter1 {
         font-size: 24px;
-        /* Adjust font size for smaller screens */
         padding: 1rem;
-        /* Adjust padding for smaller screens */
     }
 }
 
@@ -1267,11 +1176,8 @@ a {
 @media screen and (max-width: 768px) {
     .counterpera {
         margin-left: 0.5rem;
-        /* Adjust margin-left for smaller screens */
         font-size: large;
-        /* Adjust font size for smaller screens */
         font-weight: 500;
-        /* Adjust font weight for smaller screens */
     }
 }
 
@@ -1287,11 +1193,8 @@ a {
 @media screen and (max-width: 768px) {
     .counterpera2 {
         margin-left: 1rem;
-        /* Adjust margin-left for smaller screens */
         font-size: large;
-        /* Adjust font size for smaller screens */
         font-weight: 500;
-        /* Adjust font weight for smaller screens */
     }
 }
 
@@ -1307,11 +1210,8 @@ a {
 @media screen and (max-width: 768px) {
     .counterpera3 {
         margin-left: 2rem;
-        /* Adjust margin-left for smaller screens */
         font-size: large;
-        /* Adjust font size for smaller screens */
         font-weight: 500;
-        /* Adjust font weight for smaller screens */
     }
 }
 
@@ -1324,9 +1224,7 @@ a {
 
 /* Responsive adjustments */
 @media screen and (max-width: 768px) {
-    .counter1::after {
-        /* Add responsive adjustments here if needed */
-    }
+    .counter1::after {}
 }
 
 @keyframes counter1 {
@@ -1335,7 +1233,7 @@ a {
     }
 
     to {
-        --num1: 40;
+        --num1: 50;
     }
 }
 
@@ -1360,9 +1258,7 @@ a {
 @media screen and (max-width: 768px) {
     .counter2 {
         font-size: 24px;
-        /* Adjust font size for smaller screens */
         padding: 1rem;
-        /* Adjust padding for smaller screens */
     }
 }
 
@@ -1374,9 +1270,7 @@ a {
 
 /* Responsive adjustments */
 @media screen and (max-width: 768px) {
-    .counter2::after {
-        /* Add responsive adjustments here if needed */
-    }
+    .counter2::after {}
 }
 
 @keyframes counter2 {
@@ -1385,7 +1279,7 @@ a {
     }
 
     to {
-        --num2: 255;
+        --num2: 259;
     }
 }
 
@@ -1410,9 +1304,7 @@ a {
 @media screen and (max-width: 768px) {
     .counter3 {
         font-size: 24px;
-        /* Adjust font size for smaller screens */
         padding: 1rem;
-        /* Adjust padding for smaller screens */
     }
 }
 
@@ -1428,9 +1320,7 @@ a {
 
 /* Responsive adjustments */
 @media screen and (max-width: 768px) {
-    .counter3::after {
-        /* Add responsive adjustments here if needed */
-    }
+    .counter3::after {}
 }
 
 @keyframes counter3 {
@@ -1439,7 +1329,7 @@ a {
     }
 
     to {
-        --num3: 14000;
+        --num3: 14500;
     }
 }
 
@@ -1488,9 +1378,15 @@ a {
 
 @media screen and (max-width: 768px) {
     .Homeinnerpoints {
-        max-width: 100%;
         margin-left: 1rem;
         margin-top: 2rem;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        max-width: 20rem;
     }
 }
 
@@ -1512,11 +1408,9 @@ a {
     .Homequality {
         width: 100%;
         max-width: 300px;
-        /* You can adjust this based on your design needs */
         height: auto;
         position: static;
         margin: 2rem auto;
-        /* Adjust the margin based on your design */
         left: 0;
     }
 }
@@ -1539,11 +1433,9 @@ a {
     .Homequality2 {
         width: 100%;
         max-width: 300px;
-        /* You can adjust this based on your design needs */
         height: auto;
         position: static;
         margin: 2rem auto;
-        /* Adjust the margin based on your design */
         left: 0;
     }
 }
@@ -1566,14 +1458,11 @@ a {
     .Homequality3 {
         width: 100%;
         max-width: 300px;
-        /* You can adjust this based on your design needs */
         height: auto;
         position: static;
-        /* margin: 2rem auto; */
-        /* Adjust the margin based on your design */
-        /* left: 0; */
-        /* top: 0; */
-        /* Adjust based on your design */
+        margin: 2rem auto;
+        left: 0;
+        top: 0;
     }
 }
 
@@ -1604,7 +1493,7 @@ a {
         position: relative;
         margin: 2rem auto;
         left: 10rem;
-        top: 0;
+        top: -6;
     }
 }
 
@@ -1635,6 +1524,7 @@ a {
         position: relative;
         margin: 2rem auto;
         left: 10rem;
+        top: -12rem;
     }
 }
 
@@ -1665,7 +1555,7 @@ a {
         position: relative;
         margin: 2rem auto;
         left: 10rem;
-        top: 0;
+        top: -13rem;
     }
 }
 
@@ -1684,7 +1574,6 @@ a {
         flex-direction: column;
         align-items: center;
         gap: 2rem;
-        /* Adjust the gap based on your design */
     }
 }
 
@@ -1703,7 +1592,6 @@ a {
 @media screen and (max-width: 768px) {
     .Qualitycontent {
         line-height: 1.5;
-        /* Adjust the line-height based on your design */
     }
 }
 
@@ -1717,9 +1605,7 @@ a {
 @media screen and (max-width: 768px) {
     .Homeh1 {
         font-size: 1.5rem;
-        /* Adjust the font size based on your design */
         margin-bottom: 1rem;
-        /* Adjust the margin based on your design */
     }
 }
 
@@ -1733,9 +1619,7 @@ a {
 @media screen and (max-width: 768px) {
     .Homep {
         font-size: 1rem;
-        /* Adjust the font size based on your design */
         line-height: 1.5;
-        /* Adjust the line-height based on your design */
     }
 }
 
@@ -1746,8 +1630,11 @@ a {
     background-color: azure;
 }
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
     .visioncontent:hover {
-        /* Add specific styles for hover on smaller screens if needed */
     }
-}
+} */
+
+
+
+/* responsive css 600 t0 1000px */

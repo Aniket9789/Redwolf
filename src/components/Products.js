@@ -61,10 +61,10 @@ function Product() {
         <div className="Productcard2">
           <img src={pluslogo} className='Productlogo' />
           <div className='ProductcardDetails'>
-          <h1>T-Cops Zt Plus</h1>
-          <p className='download'>
-            <a href="https://us-central1-t-cops-zt.cloudfunctions.net/aml/emm/mobile_apps/TCopsZTPlus.apk"download="proposed_file_name">Download</a>
-          </p>
+            <h1>T-Cops Zt Plus</h1>
+            <p className='download'>
+              <a href="https://us-central1-t-cops-zt.cloudfunctions.net/aml/emm/mobile_apps/TCopsZTPlus.apk" download="proposed_file_name">Download</a>
+            </p>
           </div>
         </div>
         <div className="Productcard3">
@@ -191,7 +191,7 @@ function Product() {
           <li className="social-icon__item"><a className="social-icon__link" href="https://www.facebook.com/profile.php?id=61553777321124&mibextid=ZbWKwL">
             <FaFacebookF name="logo-facebook"></FaFacebookF>
           </a></li>
-          <li className="social-icon__item"><a className="social-icon__link" href="#">
+          <li className="social-icon__item"><a className="social-icon__link" href="https://twitter.com/redwolfhitech.">
             <FaTwitter name="logo-twitter"></FaTwitter>
           </a></li>
           <li className="social-icon__item"><a className="social-icon__link" href="www.linkedin.com/in/ashi-jain-3988252a6">

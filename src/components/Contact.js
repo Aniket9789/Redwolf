@@ -65,7 +65,7 @@ function Contact() {
           <li className="social-icon__item"><a className="social-icon__link" href="https://www.facebook.com/profile.php?id=61553777321124&mibextid=ZbWKwL">
             <FaFacebookF name="logo-facebook"></FaFacebookF>
           </a></li>
-          <li className="social-icon__item"><a className="social-icon__link" href="#">
+          <li className="social-icon__item"><a className="social-icon__link" href="https://twitter.com/redwolfhitech.">
             <FaTwitter name="logo-twitter"></FaTwitter>
           </a></li>
           <li className="social-icon__item"><a className="social-icon__link" href="www.linkedin.com/in/ashi-jain-3988252a6">

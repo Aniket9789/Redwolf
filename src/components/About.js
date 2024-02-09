@@ -40,7 +40,7 @@ function About() {
 
           </ul>
         </header>
-        <h1 className='Aboutheading'>About</h1>
+        {/* <h1 className='Aboutheading'>About</h1> */}
       </nav>
 
 
@@ -76,7 +76,7 @@ function About() {
           </p>
         </div>
         {/* <div className='Aboutinner3'> */}
-          {/* <p>
+        {/* <p>
             We are not limited in terms of area rather we deliver the quality service across the globe. We are powered with the best latest technology & synergistic approach for online solutions.
           </p> */}
         {/* </div> */}
@@ -129,7 +129,7 @@ function About() {
       <div className='Aboutclient'>
 
       </div>
-      
+
 
       {/* //////// */}
       {/* footer */}
@@ -144,7 +144,7 @@ function About() {
           <li className="social-icon__item"><a className="social-icon__link" href="https://www.facebook.com/profile.php?id=61553777321124&mibextid=ZbWKwL">
             <FaFacebookF name="logo-facebook"></FaFacebookF>
           </a></li>
-          <li className="social-icon__item"><a className="social-icon__link" href="#">
+          <li className="social-icon__item"><a className="social-icon__link" href="https://twitter.com/redwolfhitech.">
             <FaTwitter name="logo-twitter"></FaTwitter>
           </a></li>
           <li className="social-icon__item"><a className="social-icon__link" href="www.linkedin.com/in/ashi-jain-3988252a6">
