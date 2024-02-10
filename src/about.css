@@ -141,7 +141,7 @@
     position: absolute;
     max-width: 34rem;
     left: 48rem;
-    top: 7rem;
+    top: 13rem;
     font-size: x-large;
 }
 
@@ -191,7 +191,7 @@
         max-width: 90%;
         left: 50%;
         transform: translateX(-50%);
-        top: 38rem;
+        top: 35rem;
         font-size: large;
         font-weight: 500;
     }

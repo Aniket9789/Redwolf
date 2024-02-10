@@ -60,7 +60,7 @@ function Navbar() {
             >
               <Link to={"/"}>
                 {" "}
-                <img src={logo} className="w-[50px] h-auto" alt="logo" />
+                <img src={logo} className="w-[35%] h-auto" alt="logo" />
               </Link>
             </Typography>
 

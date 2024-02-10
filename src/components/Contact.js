@@ -80,6 +80,9 @@ function Contact() {
         </ul>
         <ul className="menu">
           <li className="menu__item"><a className="menu__link" href="/">Home</a></li>
+          <li className="menu__item"><a className="menu__link" href="#">+91 9988908111</a></li>
+          <li className="menu__item"><a className="menu__link" href="#">+91 9988401333</a></li>
+          <li className="menu__item"><a className="menu__link" href="#">info@redwolfhitech.com</a></li>
         </ul>
         <p>&copy;2024  Redwolfhi-tech || All Rights Reserved</p>
       </footer>
