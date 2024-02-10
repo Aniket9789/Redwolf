@@ -15,43 +15,44 @@ import { FaSquareInstagram } from "react-icons/fa6";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa6";
 import { FaQuoteLeft } from "react-icons/fa";
+import Navbar from "./navbar/Navbar"
 import "../home.css";
 function Home() {
   return (
     <>
-    
-      <nav className="Hnav">
+    <Navbar/>
+      {/* <nav className="Hnav">
         <img src={logo} alt="Logo" className="Alogo" />
         <header className="Hheader">
           <ul className="Hul">
             <li>
               <Link to="/">HOME</Link>
-            </li>
-            <li className="Hli">
+            </li> */}
+            {/* <li className="Hli">
               <Link to="/about">ABOUT</Link>
-            </li>
+            </li> */}
             {/* <li className='Hli'>
                             <Link to='/services'>OUR SERVICES</Link>
                         </li> */}
-            <li className="Hli">
+            {/* <li className="Hli">
               <Link to="/product">PRODUCT</Link>
-            </li>
+            </li> */}
             {/* <li className='Hli'>
                             <Link to='/career'>CAREER</Link>
                         </li> */}
-            <li className="Hli">
+            {/* <li className="Hli">
               <Link to="/contact">CONTACT US</Link>
-            </li>
+            </li> */}
             {/* <li className='Hli'>
                             <Link to='/blog'>BLOG</Link>
                         </li> */}
-            <li className="Hli">
+            {/* <li className="Hli">
               <a href="https://portal.tcopsztpro.in/">LOGIN</a>
             </li>
           </ul>
           <h1 className="companyheading">Mobile App & Development Services</h1>
         </header>
-      </nav>
+      </nav> */}
       <main>
         <section>
           <div className="Hcontainer">

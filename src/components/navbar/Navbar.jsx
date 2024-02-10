@@ -131,21 +131,6 @@ function Navbar() {
           </Toolbar>
         </Container>
       </AppBar>
-      <Box>
-        <Hero />
-      </Box>
-      <Box>
-        <HeroSub />
-      </Box>
-      <Box>
-        <HeroSuper />
-      </Box>
-      <Box>
-        <CardSection />
-      </Box>
-      <Box>
-        <Footer />
-      </Box>
     </>
   );
 }

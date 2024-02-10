@@ -8,11 +8,13 @@ import { FaSquareInstagram } from "react-icons/fa6";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa6";
 import '../about.css'
-
+import Navbar from "./navbar/Navbar"
 function About() {
   return (
     <>
-      <nav className='Aboutnav'>
+      <Navbar />
+
+      {/* <nav className='Aboutnav'>
         <img src={logo} alt='Logo' className='Aboutlogo' />
         <header className='Aboutheader'>
           <ul className='Aboutul'>
@@ -22,26 +24,26 @@ function About() {
             <li className='Aboutli'>
               <Link to='/about' id='a'>ABOUT</Link>
             </li>
-            {/* <li className='Aboutli'>
+            <li className='Aboutli'>
               <Link to='/services'>OUR SERVICES</Link>
-            </li> */}
+            </li>
             <li className='Aboutli'>
               <Link to='/product' id='a'>PRODUCT</Link>
             </li>
-            {/* <li className='Aboutli'>
+            <li className='Aboutli'>
               <Link to='/career'>CAREER</Link>
-            </li> */}
+            </li>
             <li className='Aboutli'>
               <Link to='/contact' id='a'>CONTACT US</Link>
             </li>
-            {/* <li className='Aboutli'>
+            <li className='Aboutli'>
               <Link to='/blog'>BLOG</Link>
-            </li> */}
+            </li>
 
           </ul>
         </header>
-        {/* <h1 className='Aboutheading'>About</h1> */}
-      </nav>
+        <h1 className='Aboutheading'>About</h1>
+      </nav> */}
 
 
       {/* //////////////////// */}

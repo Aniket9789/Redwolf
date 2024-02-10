@@ -5,9 +5,12 @@ import { FaFacebookF } from "react-icons/fa6";
 import { FaSquareInstagram } from "react-icons/fa6";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa6";
+import Navbar from "./navbar/Navbar"
 function Contact() {
   return (
     <>
+      <Navbar />
+
       <div className="Contactcontainer">
         <div className='Contactheading'>
           <h2>Contact Us</h2>

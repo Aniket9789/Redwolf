@@ -14,10 +14,13 @@ import logo from '../images/logo.png'
 import lockunlock from "../images/lockunlock.png"
 import financiaprotaction from "../images/financiaprotaction.png"
 import clientfinance from "../images/clientfinance.png"
+import Navbar from "./navbar/Navbar"
 function Product() {
   return (
     <>
-      <nav className='Hnav'>
+      <Navbar />
+
+      {/* <nav className='Hnav'>
         <img src={logo} alt='Logo' className='Alogo' />
         <header className='Hheader'>
           <ul className='Hul'>
@@ -27,21 +30,21 @@ function Product() {
             <li className='Hli'>
               <Link to='/about'>ABOUT</Link>
             </li>
-            {/* <li className='Hli'>
+            <li className='Hli'>
                             <Link to='/services'>OUR SERVICES</Link>
-                        </li> */}
+                        </li>
             <li className='Hli'>
               <Link to='/product'>PRODUCT</Link>
             </li>
-            {/* <li className='Hli'>
+            <li className='Hli'>
                             <Link to='/career'>CAREER</Link>
-                        </li> */}
+                        </li>
             <li className='Hli'>
               <Link to='/contact'>CONTACT US</Link>
             </li>
-            {/* <li className='Hli'>
+            <li className='Hli'>
                             <Link to='/blog'>BLOG</Link>
-                        </li> */}
+                        </li>
             <li className='Hli'>
               <a href="https://portal.tcopsztpro.in/">LOGIN</a>
             </li>
@@ -49,7 +52,7 @@ function Product() {
           </ul>
           <h1 className='companyheading'>Mobile App & Development Services</h1>
         </header>
-      </nav>
+      </nav> */}
       <div className='Productparent'>
         <div className="Productcard1">
           <img src={prologo} className='Productlogo' />
@@ -59,7 +62,7 @@ function Product() {
           </p>
         </div>
         <div className="Productcard2">
-          <img src={pluslogo} className='Productlogo' id='Pluslogo'/>
+          <img src={pluslogo} className='Productlogo' id='Pluslogo' />
           <div className='ProductcardDetails'>
             <h1>T-Cops Zt Plus</h1>
             <p className='download'>
