@@ -380,10 +380,10 @@
 
 /* responsive 678px */
 
-@media screen and (min-width:481px) and (max-width:768px) {
+/* @media screen and (min-width:481px) and (max-width:768px) {
   .Productparent {
     display: block;
     position: relative;
     top: 1rem;
   }
-}
+} */
