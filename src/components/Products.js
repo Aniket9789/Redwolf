@@ -92,7 +92,7 @@ function Product() {
         </div>
       </div>
       <div className='ProductEMI'>
-        <div className='EMIbanner'>
+        <div className='EMIbanner' id='EMIbanner1'>
           <img src={emibanner} className='banneremi' />
         </div>
         <div className='EMIcontent'>
@@ -131,14 +131,14 @@ function Product() {
           <h4 className='EMIheading'>Manage Locking/Unlocking for Multiple Devices</h4>
           <p className='EMIpera'>Retailers can now lock or unlock multiple devices at once if EMI payments are not made on time.</p>
         </div>
-        <div className='EMIbanner'>
+        <div className='EMIbanner' id='EMIbanner3'>
           <img src={lockunlock} className='banneremi' />
         </div>
       </div>
       {/* THIRDCARD */}
 
       <div className='ProductEMI' id='TheardCard'>
-        <div className='EMIbanner'>
+        <div className='EMIbanner' id='EMIbanner2'>
           <img src={financiaprotaction} className='banneremi' />
         </div>
         <div className='EMIcontent' id='contentEMI'>
@@ -147,15 +147,15 @@ function Product() {
         </div>
         <div className='EMIdetails' id='EMIdetails3'>
           <h4 className='EMIheading'>Client Information and Digital Verification</h4>
-          <p className='EMIpera'>Retailers can use digital signatures to confirm agreements and keep track of customer profile pictures.</p>
+          <p className='peradetails'>Retailers can use digital signatures to confirm agreements and keep track of customer profile pictures.</p>
           <h4 className='EMIheading'>Control of Soft Reset</h4>
-          <p className='EMIpera'>Retailers can stop users from resetting their devices.</p>
+          <p className='peradetails'>Retailers can stop users from resetting their devices.</p>
           <h4 className='EMIheading'>Handling Hard Resets</h4>
-          <p className='EMIpera'>Retailers can decide who can use the phone after a hard reset. either locking it down or granting access.</p>
+          <p className='peradetails'>Retailers can decide who can use the phone after a hard reset. either locking it down or granting access.</p>
           <h4 className='EMIheading'>Post-Hard Reset Control</h4>
-          <p className='EMIpera'>Retailers can lock or unlock phones even after a hard reset.</p>
+          <p className='peradetails'>Retailers can lock or unlock phones even after a hard reset.</p>
           <h4 className='EMIheading'>Full Protection</h4>
-          <p className='EMIpera'>This feature ensures that the phone cannot be reset or reprogrammed.</p>
+          <p className='peradetails'>This feature ensures that the phone cannot be reset or reprogrammed.</p>
         </div>
       </div>
       <div className='ProductEMI' id='thirdfinance'>
