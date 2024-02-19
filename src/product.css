@@ -165,9 +165,9 @@
   color: darkseagreen;
 }
 
- /* responsive  */
+/* responsive  */
 
- @media screen and (max-width:480px) {
+@media screen and (max-width:480px) {
   .Productparent {
     display: flex;
     flex-direction: column;
@@ -241,15 +241,15 @@
     font-weight: 700;
     position: relative;
     /* top: 5rem; */
-    /* right: 4rem;
+    right: 4rem;
   }
 
   .manageemi {
     width: 75%;
-    margin-top: 5rem;
     margin-left: -2rem;
     font-size: larger;
     font-weight: 500;
+    text-align: center;
   }
 
   .EMIheading {
@@ -264,15 +264,16 @@
     position: relative;
     text-align: center;
     max-width: 25rem;
-    left: 22px; 
+    left: 5rem;
     /* top: 8rem; */
-   }
+  }
 
   .EMIheading {
     font-size: larger;
     font-weight: 500;
     position: relative;
-    right: 4rem;
+    right: 8rem;
+    text-align: center;
   }
 
   .EMIpera {
@@ -282,6 +283,7 @@
     max-width: 22rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
+    text-align: center;
   }
 
   .peradetails {
@@ -294,9 +296,6 @@
   }
 }
 
-
-
-
 @media screen and (max-width:480px) {
   #EMIproduct {
     position: relative;
@@ -307,16 +306,18 @@
   #EMIfeature {
     position: relative;
     right: 6rem;
-  } 
+    top: 1rem;
+  }
 
-   #detailsEMI {
+  #detailsEMI {
     text-align: center;
     position: relative;
     /* left: 4rem; */
 
-   } 
-    .EMIbanner { 
-     position: relative;
+  }
+
+  .EMIbanner {
+    position: relative;
     top: 6rem;
     text-align: center;
     left: 3rem;
@@ -328,32 +329,33 @@
   }
 
   #contentEMI {
-    position: relative; 
-     top: 6rem; 
-   }
+    position: relative;
+    top: 6rem;
+  }
 
   #EMIdetails3 {
-    position: relative; 
+    position: relative;
     /* top: 8rem; */
     /* text-align: center; */
-    /* left: 4rem;
+    left: 4rem;
   }
 
   #thirdfinance {
     position: relative;
     top: 17rem;
+    text-align: center;
 
   }
 
   #productfooter {
     position: relative;
-    top: 30rem;
+    top: 32rem;
   }
 
   #bannerlast {
     position: relative;
     /* left: 4rem; */
-     width: 75%;
+    width: 75%;
     top: 6rem;
   }
 
@@ -375,4 +377,14 @@
     top: 4rem;
 
   }
-} 
+}
+
+
+
+@media screen and (max-width:768px) {
+  .Productparent {
+    display: block;
+    position: relative;
+    top: 1rem;
+  }
+}
