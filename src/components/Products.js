@@ -101,13 +101,13 @@ function Product() {
         </div>
         <div className='EMIdetails'>
           <h4 className='EMIheading'>EMI Notification</h4>
-          <p className='EMIpera'>Retailers will notify customers about upcoming EMI payments via text or WhatsApp, sending reminders three days before the due date</p>
+          <p className='EMIpera' id='pera1'>Retailers will notify customers about upcoming EMI payments via text or WhatsApp, sending reminders three days before the due date</p>
           <h4 className='EMIheading'>EMI Payment History</h4>
-          <p className='EMIpera'>Retailers can conveniently monitor the timing and dates of EMI payments made by customers.</p>
+          <p className='EMIpera' id='pera2'>Retailers can conveniently monitor the timing and dates of EMI payments made by customers.</p>
           <h4 className='EMIheading'>Planned EMI Payments</h4>
-          <p className='EMIpera'>Customers are required to make EMI payments on the specified day every month.</p>
-          <h4 className='EMIheading'>Customer-Friendly Payment Center</h4>
-          <p className='EMIpera'>For EMI transactions, customers can use the user-friendly payment platform, which accepts cash payments or allows scanning a QR code on their phone's lock screen.</p>
+          <p className='EMIpera' id='pera3'>Customers are required to make EMI payments on the specified day every month.</p>
+          <h4 className='EMIheading' id='paymentcenter'>Payment Center</h4>
+          <p className='EMIpera' id='pera4'>For EMI transactions, customers can use the user-friendly payment platform, which accepts cash payments or allows scanning a QR code on their phone's lock screen.</p>
           <h4 className='EMIheading'>SIM Card Details</h4>
           <p className='EMIpera'>Retailers will collect the SIM card number from customers with new or active SIM cards.</p>
         </div>

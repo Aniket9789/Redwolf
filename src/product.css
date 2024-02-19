@@ -231,7 +231,7 @@
 @media screen and (max-width:480px) {
   .EMIcontent {
     position: relative;
-    top: 2rem;
+    top: 3rem;
   }
 }
 
@@ -280,7 +280,7 @@
     line-height: normal;
     display: flex;
     flex-wrap: wrap;
-    max-width: 22rem;
+    max-width: 16rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
     text-align: center;
@@ -386,5 +386,32 @@
     display: block;
     position: relative;
     top: 1rem;
+  }
+
+  #pera1 {
+    position: relative;
+    right: 1rem;
+  }
+
+  #pera2 {
+    position: relative;
+    right: 2rem;
+    width: 14rem;
+  }
+
+  #pera3 {
+    position: relative;
+    right: 2rem;
+  }
+
+  #paymentcenter {
+    position: relative;
+    right: 9rem;
+  }
+
+  #pera4 {
+    position: relative;
+    right: 2rem;
+    width: 12em;
   }
 }
