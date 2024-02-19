@@ -86,7 +86,7 @@ function Product() {
         </div>
         <h1 className='Productheading'>Product</h1>
         <div className='Productmain'>
-          <h1>Discover the impressive features of the T-cops Zt pro.</h1>
+          <h1 id='Productheading1'>Discover the impressive features of the T-cops Zt pro.</h1>
           <p className='Productpera'>The T-cops Zt Pro mobile app empowers retailers to oversee their financed customers. In case of delayed EMI payments,
             the store can promptly disable their phone.</p>
         </div>
@@ -116,12 +116,12 @@ function Product() {
       {/* SECOND */}
 
 
-      <div className='ProductEMI'>
+      <div className='ProductEMI' id='EMIproduct'>
         <div className='EMIcontent'>
-          <h1 className='featuresEMI'>Instantly lock/unlock phones.</h1>
+          <h1 className='featuresEMI' id='EMIfeature'>Instantly lock/unlock phones.</h1>
 
         </div>
-        <div className='EMIdetails'>
+        <div className='EMIdetails' id='detailsEMI'>
           <h4 className='EMIheading'>Control access to social media and calls</h4>
           <p className='EMIpera'>Take control of enabling or disabling social media and phone calls. If EMI payments are overdue, you can restrict access to these features on the customer's financed phone, giving you authority over its usage.</p>
           <h4 className='EMIheading'>Activate Lock Screen</h4>
@@ -136,15 +136,16 @@ function Product() {
         </div>
       </div>
       {/* THIRDCARD */}
-      <div className='ProductEMI'>
+
+      <div className='ProductEMI' id='TheardCard'>
         <div className='EMIbanner'>
           <img src={financiaprotaction} className='banneremi' />
         </div>
-        <div className='EMIcontent'>
+        <div className='EMIcontent' id='contentEMI'>
           <h1 className='featuresEMI'>Financial Protection</h1>
           {/* <h3 className='manageemi'>Manage your EMI</h3> */}
         </div>
-        <div className='EMIdetails'>
+        <div className='EMIdetails' id='EMIdetails3'>
           <h4 className='EMIheading'>Client Information and Digital Verification</h4>
           <p className='EMIpera'>Retailers can use digital signatures to confirm agreements and keep track of customer profile pictures.</p>
           <h4 className='EMIheading'>Control of Soft Reset</h4>
@@ -157,7 +158,7 @@ function Product() {
           <p className='EMIpera'>This feature ensures that the phone cannot be reset or reprogrammed.</p>
         </div>
       </div>
-      <div className='ProductEMI'>
+      <div className='ProductEMI' id='thirdfinance'>
         <div className='EMIcontent'>
           <h1 className='featuresEMI'>Manage clients' finances</h1>
           {/* <h3 className='manageemi'>Manage your EMI</h3> */}
@@ -174,7 +175,7 @@ function Product() {
           <h4 className='EMIheading'>Instant Restart</h4>
           <p className='EMIpera'>Retailers can quickly restart customers' phones if they've missed EMI payments.</p>
         </div>
-        <div className='EMIbanner'>
+        <div className='EMIbanner' id='bannerlast'>
           <img src={clientfinance} className='banneremi' />
         </div>
       </div>
@@ -183,7 +184,7 @@ function Product() {
 
       {/* footer */}
 
-      <footer className="footer">
+      <footer className="footer" id='productfooter'>
         <div className="waves">
           <div className="wave" id="wave1"></div>
           <div className="wave" id="wave2"></div>

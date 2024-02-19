@@ -1025,7 +1025,7 @@ a {
 
 .visioncontent {
     width: 300px;
-    height: 200px;
+    height: 205px;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 10px;
@@ -1059,7 +1059,7 @@ a {
 
 .visionpera {
     color: darkseagreen;
-    font-weight: 800;
+    font-weight: 500;
 }
 
 /* Responsive adjustments */
@@ -1533,7 +1533,7 @@ a {
 
 .Homequality3 {
     width: 300px;
-    height: 200px;
+    height: 225px;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 10px;

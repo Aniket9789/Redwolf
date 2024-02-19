@@ -222,7 +222,7 @@ function Home() {
             <p className="visionpera">
               "Remarkable problem solvers! They tackled business challenges with
               practical solutions, saving time, and money, and achieving a
-              significant positive impact. Thank you for exceptional work!"
+              significant positive impact."
             </p>
             <h4 className="visionheading">--A P </h4>
           </div>
