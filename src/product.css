@@ -30,6 +30,10 @@
   font-weight: 600;
 }
 
+#Productmargin {
+  margin-bottom: 2rem;
+}
+
 .Productprice {
   color: grey;
   font-size: 22px;
@@ -232,11 +236,10 @@
 @media screen and (max-width:480px) {
   .Productbanner {
     text-align: center;
-    width: 50%;
+    width: 90%;
     position: relative;
-    left: 7rem;
+    left: 2rem;
     top: 2rem;
-
   }
 }
 
@@ -250,12 +253,12 @@
 
 @media screen and (max-width:480px) {
   #Productheading1 {
-    margin-left: 1rem;
+    margin-left: 2rem;
     color: black;
     font-size: larger;
     font-weight: 700;
     margin-top: 3rem;
-    max-width: 23rem;
+    max-width: 19rem;
 
   }
 }
@@ -281,10 +284,10 @@
 }
 
 @media screen and (max-width:480px) {
-  .EMIcontent {
+  /* .EMIcontent {
     position: relative;
     top: 3rem;
-  }
+  } */
 }
 
 @media screen and (max-width:480px) {
@@ -292,22 +295,23 @@
     font-size: larger;
     font-weight: 700;
     position: relative;
-    /* top: 5rem; */
+    top: 19rem;
     right: 4rem;
   }
 
   .manageemi {
     width: 75%;
-    margin-left: -2rem;
     font-size: larger;
     font-weight: 500;
     text-align: center;
+    position: relative;
+    top: 19rem;
+    left: -5rem;
   }
 
   .EMIheading {
     position: relative;
     right: 3rem;
-
   }
 }
 
@@ -316,7 +320,7 @@
     position: relative;
     text-align: center;
     max-width: 25rem;
-    left: 5rem;
+    left: 6rem;
     /* top: 8rem; */
   }
 
@@ -324,7 +328,7 @@
     font-size: larger;
     font-weight: 500;
     position: relative;
-    right: 8rem;
+    right: 5rem;
     text-align: center;
   }
 
@@ -351,14 +355,24 @@
 @media screen and (max-width:480px) {
   #EMIproduct {
     position: relative;
-    top: 5rem;
+    top: 6rem;
+  }
+
+  #SIM {
+    position: relative;
+    left: -8.5rem;
+  }
+
+  #SIMcard {
+    position: relative;
+    right: 2rem;
 
   }
 
   #EMIfeature {
     position: relative;
     right: 6rem;
-    top: 1rem;
+    top: 19rem;
   }
 
   #detailsEMI {
@@ -389,7 +403,7 @@
     position: relative;
     /* top: 8rem; */
     /* text-align: center; */
-    left: 4rem;
+    left: 5rem;
   }
 
   #thirdfinance {
@@ -428,6 +442,16 @@
     left: 3rem;
     top: 4rem;
 
+  }
+
+  #financial {
+    position: relative;
+    top: 0rem;
+  }
+
+  #manage {
+    position: relative;
+    
   }
 }
 

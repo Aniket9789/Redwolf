@@ -54,14 +54,14 @@ function Product() {
         </header>
       </nav> */}
       <div className='Productparent'>
-        <div className="Productcard1">
+        <div className="Productcard1" id='Productmargin'>
           <img src={prologo} className='Productlogo' />
           <h1>T-Cops Zt Pro</h1>
           <p className='download'>
             <a href="https://us-central1-t-cops-zt.cloudfunctions.net/aml/emm/mobile_apps/TCopsZTProKeygen.apk" download="proposed_file_name">Download</a>
           </p>
         </div>
-        <div className="Productcard2">
+        <div className="Productcard2" id='Productmargin'>
           <img src={pluslogo} className='Productlogo' id='Pluslogo' />
           <div className='ProductcardDetails'>
             <h1>T-Cops Zt Plus</h1>
@@ -70,7 +70,7 @@ function Product() {
             </p>
           </div>
         </div>
-        <div className="Productcard3">
+        <div className="Productcard3" id='Productmargin'>
           <img src={maclogo} className='Productlogo' />
           <h1>T-Cops I MAC</h1>
           <p>
@@ -108,27 +108,26 @@ function Product() {
           <p className='EMIpera' id='pera3'>Customers are required to make EMI payments on the specified day every month.</p>
           <h4 className='EMIheading' id='paymentcenter'>Payment Center</h4>
           <p className='EMIpera' id='pera4'>For EMI transactions, customers can use the user-friendly payment platform, which accepts cash payments or allows scanning a QR code on their phone's lock screen.</p>
-          <h4 className='EMIheading'>SIM Card Details</h4>
-          <p className='EMIpera'>Retailers will collect the SIM card number from customers with new or active SIM cards.</p>
+          <h4 className='EMIheading' id='SIM'>SIM Card Details</h4>
+          <p className='EMIpera' id='SIMcard'>Retailers will collect the SIM card number from customers with new or active SIM cards.</p>
         </div>
       </div>
 
       {/* SECOND */}
-
-
+      
       <div className='ProductEMI' id='EMIproduct'>
         <div className='EMIcontent'>
           <h1 className='featuresEMI' id='EMIfeature'>Instantly lock/unlock phones.</h1>
 
         </div>
         <div className='EMIdetails' id='detailsEMI'>
-          <h4 className='EMIheading'>Control access to social media and calls</h4>
+          <h4 className='EMIheading'>Control access to media and calls</h4>
           <p className='EMIpera'>Take control of enabling or disabling social media and phone calls. If EMI payments are overdue, you can restrict access to these features on the customer's financed phone, giving you authority over its usage.</p>
           <h4 className='EMIheading'>Activate Lock Screen</h4>
           <p className='EMIpera'>Retailers have the ability to secure the phone screen using a personal PIN and password.</p>
           <h4 className='EMIheading'>Secure the Device</h4>
           <p className='EMIpera'>Retailers can choose to fully lock a customer's phone if EMI payments are delayed.</p>
-          <h4 className='EMIheading'>Manage Locking/Unlocking for Multiple Devices</h4>
+          <h4 className='EMIheading'>Manage Lock/Unlock for Multiple Devices</h4>
           <p className='EMIpera'>Retailers can now lock or unlock multiple devices at once if EMI payments are not made on time.</p>
         </div>
         <div className='EMIbanner' id='EMIbanner3'>
