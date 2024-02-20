@@ -47,6 +47,12 @@
   font-size: 18px;
 }
 
+#Productheading1 {
+  font-size: x-large;
+  font-weight: 500;
+
+}
+
 /* .Productbutton:hover {
   opacity: 0.7;
 } */
@@ -65,6 +71,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 
@@ -91,7 +99,7 @@
 .Productpera {
   line-height: 3rem;
   max-width: 52rem;
-  font-size: x-large;
+  font-size: larger;
 
 }
 
@@ -133,27 +141,56 @@
 
 .manageemi {
   color: #142b5f;
+  position: relative;
+  top: 6rem;
+  left: 2rem;
+  font-weight: 500;
+  width: 104%;
 
 }
 
 .featuresEMI {
+  position: relative;
   color: red;
   margin-left: 2rem;
   line-height: 3rem;
+  font-size: x-large;
+  font-weight: 500;
+  top: 6rem;
+}
+
+#EMIfeature {
+  width: 182%;
+
+}
+
+#financial {
+  width: 115%;
+}
+
+#manage {
+  width: 124%;
 }
 
 .EMIdetails {
   position: relative;
   right: 3rem;
-  top: 5rem;
+  top: 7rem;
   line-height: 2rem;
 
+}
+
+#EMIproduct {
+  position: relative;
+  top: 11rem;
 }
 
 .EMIheading {
   color: #142b5f;
   font-size: larger;
 }
+
+
 
 .EMIpera {
   font-size: large;
@@ -163,6 +200,21 @@
 .peradetails {
   font-size: large;
   color: darkseagreen;
+}
+
+#TheardCard {
+  position: relative;
+  top: 18rem;
+}
+
+#thirdfinance {
+  position: relative;
+  top: 25rem;
+}
+
+#productfooter {
+  position: relative;
+  top: 41rem;
 }
 
 /* responsive  */

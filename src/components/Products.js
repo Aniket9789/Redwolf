@@ -142,7 +142,7 @@ function Product() {
           <img src={financiaprotaction} className='banneremi' />
         </div>
         <div className='EMIcontent' id='contentEMI'>
-          <h1 className='featuresEMI'>Financial Protection</h1>
+          <h1 className='featuresEMI' id="financial">Financial Protection</h1>
           {/* <h3 className='manageemi'>Manage your EMI</h3> */}
         </div>
         <div className='EMIdetails' id='EMIdetails3'>
@@ -160,7 +160,7 @@ function Product() {
       </div>
       <div className='ProductEMI' id='thirdfinance'>
         <div className='EMIcontent'>
-          <h1 className='featuresEMI'>Manage clients' finances</h1>
+          <h1 className='featuresEMI' id='manage'>Manage clients' finances</h1>
           {/* <h3 className='manageemi'>Manage your EMI</h3> */}
         </div>
         <div className='EMIdetails'>
