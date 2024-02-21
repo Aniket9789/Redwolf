@@ -84,7 +84,7 @@ function Product() {
         <div className='ProductBanner'>
           <img src={productbanner} className='Productbanner' />
         </div>
-        <h1 className='Productheading'>Product</h1>
+        <h1 className='Productheading' id='producth1'>Product</h1>
         <div className='Productmain'>
           <h1 id='Productheading1'>Discover the impressive features of the T-cops Zt pro.</h1>
           <p className='Productpera'>The T-cops Zt Pro mobile app empowers retailers to oversee their financed customers. In case of delayed EMI payments,
@@ -114,21 +114,21 @@ function Product() {
       </div>
 
       {/* SECOND */}
-      
+
       <div className='ProductEMI' id='EMIproduct'>
         <div className='EMIcontent'>
           <h1 className='featuresEMI' id='EMIfeature'>Instantly lock/unlock phones.</h1>
 
         </div>
         <div className='EMIdetails' id='detailsEMI'>
-          <h4 className='EMIheading'>Control access to media and calls</h4>
-          <p className='EMIpera'>Take control of enabling or disabling social media and phone calls. If EMI payments are overdue, you can restrict access to these features on the customer's financed phone, giving you authority over its usage.</p>
+          <h4 className='EMIheading' id="controlaccess">Control access to media and calls</h4>
+          <p className='EMIpera' id='takecontrol'>Take control of enabling or disabling social media and phone calls. If EMI payments are overdue, you can restrict access to these features on the customer's financed phone, giving you authority over its usage.</p>
           <h4 className='EMIheading'>Activate Lock Screen</h4>
-          <p className='EMIpera'>Retailers have the ability to secure the phone screen using a personal PIN and password.</p>
+          <p className='EMIpera' id='takecontrol'>Retailers have the ability to secure the phone screen using a personal PIN and password.</p>
           <h4 className='EMIheading'>Secure the Device</h4>
-          <p className='EMIpera'>Retailers can choose to fully lock a customer's phone if EMI payments are delayed.</p>
-          <h4 className='EMIheading'>Manage Lock/Unlock for Multiple Devices</h4>
-          <p className='EMIpera'>Retailers can now lock or unlock multiple devices at once if EMI payments are not made on time.</p>
+          <p className='EMIpera' id='takecontrol'>Retailers can choose to fully lock a customer's phone if EMI payments are delayed.</p>
+          <h4 className='EMIheading' id='lockunlock'>Lock & Unlock for Multiple Devices</h4>
+          <p className='EMIpera' id='takecontrol'>Retailers can now lock or unlock multiple devices at once if EMI payments are not made on time.</p>
         </div>
         <div className='EMIbanner' id='EMIbanner3'>
           <img src={lockunlock} className='banneremi' />
@@ -145,7 +145,7 @@ function Product() {
           {/* <h3 className='manageemi'>Manage your EMI</h3> */}
         </div>
         <div className='EMIdetails' id='EMIdetails3'>
-          <h4 className='EMIheading'>Client Information and Digital Verification</h4>
+          <h4 className='EMIheading' id='clientheading'>Client Information and Digital Verification</h4>
           <p className='peradetails'>Retailers can use digital signatures to confirm agreements and keep track of customer profile pictures.</p>
           <h4 className='EMIheading'>Control of Soft Reset</h4>
           <p className='peradetails'>Retailers can stop users from resetting their devices.</p>
@@ -164,15 +164,15 @@ function Product() {
         </div>
         <div className='EMIdetails'>
           <h4 className='EMIheading'>EMI Calculation Pro</h4>
-          <p className='EMIpera'>Retailers can use a tool to accurately calculate installment payments.</p>
+          <p className='EMIpera' id='retailerscss'>Retailers can use a tool to accurately calculate installment payments.</p>
           <h4 className='EMIheading'>Emergency Call Option</h4>
-          <p className='EMIpera'>Customers can make emergency calls even if they haven't paid their installments and their phones are locked.</p>
+          <p className='EMIpera' id='retailerscss'>Customers can make emergency calls even if they haven't paid their installments and their phones are locked.</p>
           <h4 className='EMIheading'>Location Tracking</h4>
-          <p className='EMIpera'>Retailers can track the location of the user's device if they miss EMI payments.</p>
+          <p className='EMIpera' id='retailerscss'>Retailers can track the location of the user's device if they miss EMI payments.</p>
           <h4 className='EMIheading'>USB Management:</h4>
-          <p className='EMIpera'>Retailers can control whether customers can use USB functions on their phones.</p>
+          <p className='EMIpera' id='retailerscss'>Retailers can control whether customers can use USB functions on their phones.</p>
           <h4 className='EMIheading'>Instant Restart</h4>
-          <p className='EMIpera'>Retailers can quickly restart customers' phones if they've missed EMI payments.</p>
+          <p className='EMIpera' id='retailerscss'>Retailers can quickly restart customers' phones if they've missed EMI payments.</p>
         </div>
         <div className='EMIbanner' id='bannerlast'>
           <img src={clientfinance} className='banneremi' />

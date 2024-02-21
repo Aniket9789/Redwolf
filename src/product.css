@@ -236,9 +236,9 @@
 @media screen and (max-width:480px) {
   .Productbanner {
     text-align: center;
-    width: 90%;
+    width: 85%;
     position: relative;
-    left: 2rem;
+    left: 1rem;
     top: 2rem;
   }
 }
@@ -328,7 +328,7 @@
     font-size: larger;
     font-weight: 500;
     position: relative;
-    right: 5rem;
+    right: 10rem;
     text-align: center;
   }
 
@@ -344,10 +344,10 @@
 
   .peradetails {
     position: relative;
-    right: 2rem;
+    right: 5rem;
     max-width: 80%;
-    margin-bottom: 1rem;
-    margin-top: 1rem;
+    margin-bottom: 2rem;
+    top: 1rem;
 
   }
 }
@@ -420,7 +420,7 @@
 
   #bannerlast {
     position: relative;
-    /* left: 4rem; */
+    left: 0rem;
     width: 75%;
     top: 6rem;
   }
@@ -428,12 +428,12 @@
   #EMIbanner3 {
     width: 75%;
     margin-top: 5rem;
-    margin-left: 2rem;
+    margin-left: -2rem;
   }
 
   #EMIbanner2 {
     width: 75%;
-    margin-left: 2rem;
+    margin-left: -2rem;
   }
 
   #EMIbanner1 {
@@ -451,7 +451,49 @@
 
   #manage {
     position: relative;
-    
+    right: 15rem;
+  }
+
+  #producth1 {
+    position: relative;
+    right: 9rem;
+    top: -3rem;
+    left: 4rem;
+    font-size: larger;
+
+  }
+
+  #controlaccess {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    left: -4rem;
+  }
+
+  #takecontrol {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    right: 4rem;
+
+  }
+
+  #lockunlock {
+    position: relative;
+    right: 4rem;
+    width: 14rem;
+
+  }
+
+  #clientheading {
+    position: relative;
+    width: 16rem;
+    right: 4rem;
+  }
+
+  #retailerscss {
+    position: relative;
+    right: 5rem;
   }
 }
 
@@ -466,18 +508,18 @@
 
   #pera1 {
     position: relative;
-    right: 1rem;
+    right: 4rem;
   }
 
   #pera2 {
     position: relative;
-    right: 2rem;
+    right: 3rem;
     width: 14rem;
   }
 
   #pera3 {
     position: relative;
-    right: 2rem;
+    right: 3rem;
   }
 
   #paymentcenter {
