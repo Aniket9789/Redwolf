@@ -15,10 +15,12 @@ import lockunlock from "../images/lockunlock.png"
 import financiaprotaction from "../images/financiaprotaction.png"
 import clientfinance from "../images/clientfinance.png"
 import Navbar from "./navbar/Navbar"
+import Example from './navbar/Navtest';
 function Product() {
   return (
     <>
       <Navbar />
+      {/* <Example/> */}
 
       {/* <nav className='Hnav'>
         <img src={logo} alt='Logo' className='Alogo' />
@@ -53,6 +55,7 @@ function Product() {
           <h1 className='companyheading'>Mobile App & Development Services</h1>
         </header>
       </nav> */}
+      <div>
       <div className='Productparent'>
         <div className="Productcard1" id='Productmargin'>
           <img src={prologo} className='Productlogo' />
@@ -91,7 +94,7 @@ function Product() {
             the store can promptly disable their phone.</p>
         </div>
       </div>
-      <div className='ProductEMI'>
+      <div className='ProductEMI1'>
         <div className='EMIbanner' id='EMIbanner1'>
           <img src={emibanner} className='banneremi' />
         </div>
@@ -115,7 +118,7 @@ function Product() {
 
       {/* SECOND */}
 
-      <div className='ProductEMI' id='EMIproduct'>
+      <div className='ProductEMI2' id='EMIproduct'>
         <div className='EMIcontent'>
           <h1 className='featuresEMI' id='EMIfeature'>Instantly lock/unlock phones.</h1>
 
@@ -136,7 +139,7 @@ function Product() {
       </div>
       {/* THIRDCARD */}
 
-      <div className='ProductEMI' id='TheardCard'>
+      <div className='ProductEMI3' id='TheardCard'>
         <div className='EMIbanner' id='EMIbanner2'>
           <img src={financiaprotaction} className='banneremi' />
         </div>
@@ -157,7 +160,7 @@ function Product() {
           <p className='peradetails'>This feature ensures that the phone cannot be reset or reprogrammed.</p>
         </div>
       </div>
-      <div className='ProductEMI' id='thirdfinance'>
+      <div className='ProductEMI4' id='thirdfinance'>
         <div className='EMIcontent'>
           <h1 className='featuresEMI' id='manage'>Manage clients' finances</h1>
           {/* <h3 className='manageemi'>Manage your EMI</h3> */}
@@ -216,6 +219,7 @@ function Product() {
         </ul>
         <p>&copy;2024  Redwolfhi-tech || All Rights Reserved</p>
       </footer>
+      </div>
       <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
       <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 

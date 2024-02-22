@@ -52,8 +52,12 @@
 }
 
 #Productheading1 {
-  font-size: x-large;
-  font-weight: 500;
+  font-size: medium;
+  font-weight: 700;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 
 }
 
@@ -83,9 +87,9 @@
 /* // */
 /* productcontent */
 
-.Productbanner {
+/* .Productbanner {
   width: 100%;
-}
+} */
 
 .Productheading {
   position: absolute;
@@ -107,7 +111,28 @@
 
 }
 
-.ProductEMI {
+.ProductEMI1 {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+
+}
+
+.ProductEMI2 {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+
+}
+
+.ProductEMI3 {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+
+}
+
+.ProductEMI4 {
   justify-content: center;
   display: flex;
   align-items: center;
@@ -163,18 +188,18 @@
   top: 6rem;
 }
 
-#EMIfeature {
+/* #EMIfeature {
   width: 182%;
 
-}
+} */
 
-#financial {
+/* #financial {
   width: 115%;
-}
+} */
 
-#manage {
+/* #manage {
   width: 124%;
-}
+} */
 
 .EMIdetails {
   position: relative;
@@ -184,17 +209,15 @@
 
 }
 
-#EMIproduct {
+/* #EMIproduct {
   position: relative;
   top: 11rem;
-}
+} */
 
 .EMIheading {
   color: #142b5f;
   font-size: larger;
 }
-
-
 
 .EMIpera {
   font-size: large;
@@ -206,330 +229,95 @@
   color: darkseagreen;
 }
 
-#TheardCard {
-  position: relative;
-  top: 18rem;
-}
-
-#thirdfinance {
-  position: relative;
-  top: 25rem;
-}
-
-#productfooter {
-  position: relative;
-  top: 41rem;
-}
 
 /* responsive  */
 
 @media screen and (max-width:480px) {
   .Productparent {
+    display: block;
+  }
+
+  .Productmain {
+    display: contents;
+  }
+
+  .ProductEMI1 {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
-    margin-top: 2rem;
-  }
-}
-
-
-@media screen and (max-width:480px) {
-  .Productbanner {
-    text-align: center;
-    width: 85%;
-    position: relative;
-    left: 1rem;
-    top: 2rem;
-  }
-}
-
-@media screen and (max-width:480px) {
-  .Productmain {
-    text-align: center;
-    margin-left: auto;
-
-  }
-}
-
-@media screen and (max-width:480px) {
-  #Productheading1 {
-    margin-left: 2rem;
-    color: black;
-    font-size: larger;
-    font-weight: 700;
-    margin-top: 3rem;
-    max-width: 19rem;
-
-  }
-}
-
-@media screen and (max-width:480px) {
-  .Productpera {
-    line-height: normal;
-    font-size: large;
-    display: flex;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
-    max-width: 20rem;
-    margin-left: 2rem;
-    margin-top: 1rem;
-  }
-}
-
-
-@media screen and (max-width:480px) {
-  .ProductEMI {
-    display: block;
-    margin-top: -3rem;
-  }
-}
-
-@media screen and (max-width:480px) {
-  /* .EMIcontent {
-    position: relative;
-    top: 3rem;
-  } */
-}
-
-@media screen and (max-width:480px) {
-  .featuresEMI {
-    font-size: larger;
-    font-weight: 700;
-    position: relative;
-    top: 19rem;
-    right: 4rem;
   }
 
-  .manageemi {
-    width: 75%;
-    font-size: larger;
-    font-weight: 500;
-    text-align: center;
-    position: relative;
-    top: 19rem;
-    left: -5rem;
+  .ProductEMI2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+    flex-wrap: wrap;
+
   }
 
-  .EMIheading {
-    position: relative;
-    right: 3rem;
+  .ProductEMI3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10rem;
   }
-}
 
-@media screen and (max-width:480px) {
+  .ProductEMI4 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+  }
+
   .EMIdetails {
-    position: relative;
-    text-align: center;
-    max-width: 25rem;
-    left: 6rem;
-    /* top: 8rem; */
-  }
-
-  .EMIheading {
-    font-size: larger;
-    font-weight: 500;
-    position: relative;
-    right: 10rem;
-    text-align: center;
-  }
-
-  .EMIpera {
-    line-height: normal;
     display: flex;
-    flex-wrap: wrap;
-    max-width: 16rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 6rem;
+    margin-top: -7rem;
   }
 
-  .peradetails {
+  .EMIcontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     position: relative;
-    right: 5rem;
-    max-width: 80%;
-    margin-bottom: 2rem;
-    top: 1rem;
-
-  }
-}
-
-@media screen and (max-width:480px) {
-  #EMIproduct {
-    position: relative;
-    top: 6rem;
+    top: -7rem;
+    left: -7rem;
   }
 
-  #SIM {
+  #EMIbanner3 {
     position: relative;
-    left: -8.5rem;
-  }
+    top: 7rem;
 
-  #SIMcard {
-    position: relative;
-    right: 2rem;
-
-  }
-
-  #EMIfeature {
-    position: relative;
-    right: 6rem;
-    top: 19rem;
-  }
-
-  #detailsEMI {
-    text-align: center;
-    position: relative;
-    /* left: 4rem; */
-
-  }
-
-  .EMIbanner {
-    position: relative;
-    top: 6rem;
-    text-align: center;
-    left: 3rem;
-  }
-
-  #TheardCard {
-    position: relative;
-    top: 8rem;
-  }
-
-  #contentEMI {
-    position: relative;
-    top: 6rem;
-  }
-
-  #EMIdetails3 {
-    position: relative;
-    /* top: 8rem; */
-    /* text-align: center; */
-    left: 5rem;
-  }
-
-  #thirdfinance {
-    position: relative;
-    top: 17rem;
-    text-align: center;
-
-  }
-
-  #productfooter {
-    position: relative;
-    top: 32rem;
   }
 
   #bannerlast {
     position: relative;
-    left: 0rem;
-    width: 75%;
-    top: 6rem;
+    top: 8rem;
+
   }
 
-  #EMIbanner3 {
-    width: 75%;
-    margin-top: 5rem;
-    margin-left: -2rem;
-  }
-
-  #EMIbanner2 {
-    width: 75%;
-    margin-left: -2rem;
-  }
-
-  #EMIbanner1 {
-    width: 75%;
+  .featuresEMI {
+    text-align: center;
     position: relative;
-    left: 3rem;
-    top: 4rem;
-
+    left: 5rem;
   }
 
-  #financial {
+  #productfooter {
     position: relative;
-    top: 0rem;
+    top: 15rem;
   }
-
-  #manage {
-    position: relative;
-    right: 15rem;
-  }
-
-  #producth1 {
-    position: relative;
-    right: 9rem;
-    top: -3rem;
-    left: 4rem;
-    font-size: larger;
-
-  }
-
-  #controlaccess {
-    display: flex;
-    flex-wrap: wrap;
-    position: relative;
-    left: -4rem;
-  }
-
-  #takecontrol {
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    right: 4rem;
-
-  }
-
-  #lockunlock {
-    position: relative;
-    right: 4rem;
-    width: 14rem;
-
-  }
-
-  #clientheading {
-    position: relative;
-    width: 16rem;
-    right: 4rem;
-  }
-
-  #retailerscss {
-    position: relative;
-    right: 5rem;
-  }
-}
-
-
-
-@media screen and (max-width:768px) {
-  .Productparent {
-    display: block;
-    position: relative;
-    top: 1rem;
-  }
-
-  #pera1 {
-    position: relative;
-    right: 4rem;
-  }
-
-  #pera2 {
-    position: relative;
-    right: 3rem;
-    width: 14rem;
-  }
-
-  #pera3 {
-    position: relative;
-    right: 3rem;
-  }
-
-  #paymentcenter {
-    position: relative;
-    right: 9rem;
-  }
-
-  #pera4 {
-    position: relative;
-    right: 2rem;
-    width: 12em;
+  .Productpera{
+    line-height: 2rem;
   }
 }
