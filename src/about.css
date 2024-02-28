@@ -161,8 +161,9 @@
 
 .Abouheading1 {
     text-align: center;
-    color: brown;
+    color: #ff722f;
     font-size: xx-large;
+    font-weight: 800;
 }
 
 @media only screen and (max-width:768px) {
@@ -174,8 +175,9 @@
 }
 
 .Aboutheading2 {
-    font-size: 23px;
-    color: brown;
+    font-size: 40px;
+    color: #ff722f;
+    font-weight: 700;
 }
 
 @media only screen and (max-width:768px) {
@@ -377,7 +379,7 @@
     max-width: 62rem;
     margin-left: 16rem;
     font-size: x-large;
-    color: chocolate;
+    color: #ff722f;
 }
 
 /* Media query for tablets */
@@ -494,6 +496,7 @@
 .Aboutheadingtemplate {
     color: #fda003;
     font-weight: 800;
+    font-size: larger;
 }
 
 .Aboutperatemplate {

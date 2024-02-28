@@ -52,12 +52,14 @@
 }
 
 #Productheading1 {
-  font-size: medium;
+  font-size: xx-large;
   font-weight: 700;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  position: relative;
+  left: -8rem;
 
 }
 
@@ -105,9 +107,9 @@
 }
 
 .Productpera {
-  line-height: 3rem;
+  line-height: 2rem;
   max-width: 52rem;
-  font-size: larger;
+  font-size: large;
 
 }
 
@@ -122,6 +124,7 @@
   justify-content: center;
   display: flex;
   align-items: center;
+  margin-top: 12rem;
 
 }
 
@@ -129,6 +132,7 @@
   justify-content: center;
   display: flex;
   align-items: center;
+  margin-top: 9rem;
 
 }
 
@@ -136,6 +140,7 @@
   justify-content: center;
   display: flex;
   align-items: center;
+  margin-top: 6rem;
 
 }
 
@@ -184,7 +189,7 @@
   margin-left: 2rem;
   line-height: 3rem;
   font-size: x-large;
-  font-weight: 500;
+  font-weight: 800;
   top: 6rem;
 }
 
@@ -217,18 +222,31 @@
 .EMIheading {
   color: #142b5f;
   font-size: larger;
+  font-weight: 800;
+
 }
 
 .EMIpera {
   font-size: large;
-  color: darkseagreen;
+  color: cadetblue;
+  font-weight: 500;
 }
 
 .peradetails {
   font-size: large;
-  color: darkseagreen;
+  color: cadetblue;
 }
 
+#productfooter {
+  position: relative;
+  top: 17rem;
+}
+
+#lastdetails {
+  position: relative;
+  top: 9rem;
+  right: 7rem;
+}
 
 /* responsive  */
 
@@ -315,9 +333,32 @@
 
   #productfooter {
     position: relative;
-    top: 15rem;
+    top: 19rem;
   }
-  .Productpera{
+
+  .Productpera {
     line-height: 2rem;
+  }
+
+  #lastdetails {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  #emiheadinglast {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    margin-left: 1rem;
+  }
+
+  #Productheading1 {
+    line-height: normal;
+    margin-left: 8rem;
+    width: 25rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
   }
 }

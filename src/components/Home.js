@@ -20,7 +20,7 @@ import "../home.css";
 function Home() {
   return (
     <>
-    <Navbar/>
+      <Navbar />
       {/* <nav className="Hnav">
         <img src={logo} alt="Logo" className="Alogo" />
         <header className="Hheader">
@@ -28,25 +28,25 @@ function Home() {
             <li>
               <Link to="/">HOME</Link>
             </li> */}
-            {/* <li className="Hli">
+      {/* <li className="Hli">
               <Link to="/about">ABOUT</Link>
             </li> */}
-            {/* <li className='Hli'>
+      {/* <li className='Hli'>
                             <Link to='/services'>OUR SERVICES</Link>
                         </li> */}
-            {/* <li className="Hli">
+      {/* <li className="Hli">
               <Link to="/product">PRODUCT</Link>
             </li> */}
-            {/* <li className='Hli'>
+      {/* <li className='Hli'>
                             <Link to='/career'>CAREER</Link>
                         </li> */}
-            {/* <li className="Hli">
+      {/* <li className="Hli">
               <Link to="/contact">CONTACT US</Link>
             </li> */}
-            {/* <li className='Hli'>
+      {/* <li className='Hli'>
                             <Link to='/blog'>BLOG</Link>
                         </li> */}
-            {/* <li className="Hli">
+      {/* <li className="Hli">
               <a href="https://portal.tcopsztpro.in/">LOGIN</a>
             </li>
           </ul>
@@ -65,7 +65,7 @@ function Home() {
               <img src={growup} className="slider1" />
             </div>
           </div>
-          {/* <hr /> */}
+          <hr />
           <br />
           {/* <a class="prev" role="button"><span class="text1">&#10094;</span><span>Prev</span></a>
                     <a class="next" role="button"><span class="text2">&#10095;</span><span>Next</span></a> */}
@@ -77,7 +77,7 @@ function Home() {
               <h1 className="Welcome">WELCOME TO REDWOLF HI-TECH PVT LTD</h1>
             </div>
             <div className="text1">
-              <p>
+              <p className="subpera">
                 {" "}
                 REDWOLF HI-TECH Private Limited is a specialised SALES & IT
                 solution, Company based out at Noida, India. We provide high
@@ -86,6 +86,7 @@ function Home() {
               </p>
             </div>
           </div>
+          {/* <hr /> */}
 
           <div class="row">
             <div class="column">

@@ -349,6 +349,17 @@ a {
     font-size: xx-large;
 }
 
+.Welcome {
+    font-size: x-large;
+    font-weight: 700;
+}
+
+.subpera {
+    font-size: large;
+    font-weight: 500;
+}
+
+
 /* Responsive adjustments */
 @media screen and (max-width: 768px) {
     .para1 {
@@ -1048,6 +1059,8 @@ a {
 .visionheading {
     color: #ff722f;
     margin-bottom: 1rem;
+    font-size: larger;
+    font-weight: 800;
 }
 
 /* Responsive adjustments */
@@ -1058,8 +1071,9 @@ a {
 /* 43 */
 
 .visionpera {
-    color: darkseagreen;
-    font-weight: 500;
+    color: cadetblue;
+    font-weight: 600;
+    font-size: large;
 }
 
 /* Responsive adjustments */
@@ -1070,7 +1084,7 @@ a {
 /* 44 */
 
 .testmonialparent {
-    margin-top: 16rem;
+    margin-top: 9rem;
 }
 
 /* Responsive adjustments */
@@ -1170,7 +1184,7 @@ a {
 .counterpera {
     margin-left: 1.1rem;
     font-size: x-large;
-    font-weight: 600;
+    font-weight: 800;
 }
 
 /* Responsive adjustments */
@@ -1187,7 +1201,7 @@ a {
 .counterpera2 {
     margin-left: 2.1rem;
     font-size: x-large;
-    font-weight: 600;
+    font-weight: 800;
 }
 
 /* Responsive adjustments */
@@ -1204,7 +1218,7 @@ a {
 .counterpera3 {
     margin-left: 4.1rem;
     font-size: x-large;
-    font-weight: 600;
+    font-weight: 800;
 }
 
 /* Responsive adjustments */
@@ -1472,7 +1486,7 @@ a {
 .Homequality {
     width: 300px;
     height: 200px;
-    padding: 20px;
+    padding: 11px;
     border: 1px solid #ccc;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -1534,7 +1548,7 @@ a {
 .Homequality3 {
     width: 300px;
     height: 225px;
-    padding: 20px;
+    padding: 9px;
     border: 1px solid #ccc;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -1580,7 +1594,10 @@ a {
 
 
 .Quality {
-    color: brown;
+    color: #ff722f;
+    font-size: larger;
+    font-weight: 800;
+
 }
 
 /* 67 */
@@ -1588,6 +1605,8 @@ a {
 .Qualitycontent {
     color: cadetblue;
     line-height: 21px;
+    font-size: medium;
+    font-weight: 700;
 }
 
 @media screen and (max-width: 768px) {
@@ -1600,7 +1619,9 @@ a {
 
 .Homeh1 {
     margin-bottom: 2rem;
-    color: brown;
+    color: #ff722f;
+    font-size: larger;
+    font-weight: 800;
 }
 
 @media screen and (max-width: 768px) {
@@ -1613,8 +1634,11 @@ a {
 /* 69 */
 
 .Homep {
-    color: green;
+    color: cadetblue;
     line-height: 2rem;
+    font-size: large;
+    font-weight: 600;
+
 }
 
 @media screen and (max-width: 768px) {
