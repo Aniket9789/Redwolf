@@ -242,12 +242,6 @@
   top: 17rem;
 }
 
-#lastdetails {
-  position: relative;
-  top: 9rem;
-  right: 7rem;
-}
-
 /* responsive  */
 
 @media screen and (max-width:480px) {
@@ -338,27 +332,5 @@
 
   .Productpera {
     line-height: 2rem;
-  }
-
-  #lastdetails {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-  }
-
-  #emiheadinglast {
-    display: flex;
-    align-items: start;
-    justify-content: start;
-    margin-left: 1rem;
-  }
-
-  #Productheading1 {
-    line-height: normal;
-    margin-left: 8rem;
-    width: 25rem;
-    font-weight: 500;
-    margin-bottom: 1rem;
   }
 }

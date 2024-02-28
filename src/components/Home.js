@@ -13,7 +13,7 @@ import { Link } from "react-router-dom";
 import { FaFacebookF } from "react-icons/fa6";
 import { FaSquareInstagram } from "react-icons/fa6";
 import { FaLinkedinIn } from "react-icons/fa";
-import { FaTwitter } from "react-icons/fa6";
+import { FaXTwitter } from "react-icons/fa6";
 import { FaQuoteLeft } from "react-icons/fa";
 import Navbar from "./navbar/Navbar"
 import "../home.css";
@@ -263,7 +263,7 @@ function Home() {
           </li>
           <li className="social-icon__item">
             <a className="social-icon__link" href="https://twitter.com/redwolfhitech.">
-              <FaTwitter name="logo-twitter"></FaTwitter>
+            <FaXTwitter name="logo-twiter" ></FaXTwitter>
             </a>
           </li>
           <li className="social-icon__item">
@@ -303,7 +303,7 @@ function Home() {
           </li>
           {/* <li className="menu__item"><a className="menu__link" href="/blog">Blog</a></li> */}
         </ul>
-        <p>&copy;2024 Redwolfhi-tech || All Rights Reserved</p>
+        <p>&copy;2024 RED WOLF HI-TECH PVT. LTD. || All Rights Reserved</p>
       </footer>
       <script
         type="module"
