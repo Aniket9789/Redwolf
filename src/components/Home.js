@@ -216,7 +216,7 @@ function Home() {
               ability to solve problems and their hard work really helped us. We
               strongly recommend their services!"
             </p>
-            <h4 className="visionheading">--R R Singh</h4>
+            <h4 className="visionheading">--R M Singh</h4>
           </div>
           <FaQuoteLeft className="icon" />
           <div className="visioncontent">
