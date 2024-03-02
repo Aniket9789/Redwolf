@@ -80,7 +80,7 @@ function Home() {
               <p className="subpera">
                 {" "}
                 REDWOLF HI-TECH Private Limited is a specialised SALES & IT
-                solution, Company based out at Noida, India. We provide high
+                solution, Company based out at Noida Uttar Pradesh, India. We provide high
                 quality professional software services to the clients residing
                 across the globe.
               </p>

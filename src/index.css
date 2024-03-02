@@ -21,12 +21,6 @@
     background-color: #7c0000 !important;
 }
 
-.css-1q39md6-MuiButtonBase-root-MuiButton-root:hover {
-    background-color: white;
-    color: Black;
-}
-
-
 .box-shadow {
     padding: 1rem;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
