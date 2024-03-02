@@ -21,6 +21,18 @@
     background-color: #7c0000 !important;
 }
 
+/* @media screen and (max-width:480px) {
+    .css-19r6kue-MuiContainer-root {
+        background-color: #7c0000 !important;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .css-19r6kue-MuiContainer-root {
+        background-color: #7c0000 !important;
+    }
+} */
+
 .box-shadow {
     padding: 1rem;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
